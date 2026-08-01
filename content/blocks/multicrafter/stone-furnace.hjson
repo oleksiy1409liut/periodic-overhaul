@@ -1,0 +1,45 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Stone Furnace"
+description: "Smelts simple materials for better uses, requires coal."
+size: 2
+itemCapacity: 200
+health: 200
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: chunk-iron-plate
+        input: {
+            items: ["periodic-iron-chunk/3", "coal/1"]
+        }
+        output: {
+            items: ["periodic-iron-plate/1"]
+        }
+        craftTime: 100  # = 1 second
+        unlocked: true
+    }
+    {
+        name: placeholder-recipe-1
+        input: {
+            items: ["titanium/200"]
+            liquids: ["cryofluid/900"]
+            power: 1.5
+        }
+        output: {
+            items: ["plastanium/1"]
+            liquids: ["slag/2"]
+            heat: 1
+        }
+        craftTime: 1600  # = 10 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["stone/5"]
+category: "crafting"
