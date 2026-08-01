@@ -1,1 +1,4 @@
-
+requirements: [
+  iron-plate/8
+  stone/3
+]
