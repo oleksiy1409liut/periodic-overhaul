@@ -1,0 +1,4 @@
+type: OreBlock
+name: ground iron ore
+itemDrop: iron-chunk
+variants: 1
