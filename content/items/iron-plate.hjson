@@ -1,0 +1,13 @@
+{
+type: material
+name: iron plate (Fe)
+description: smelted plates of iron (Fe), used in infrastucture and compounds.
+cost: 0.75
+color: ffffff
+research: iron-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
