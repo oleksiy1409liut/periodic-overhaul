@@ -1,0 +1,11 @@
+name: "periodic"
+description: 
+''' 
+kurwa co ce za mod jebany, inspired by the periodic madness factorio mod
+'''
+author: "oleksiy"
+minGameVersion: 146
+version: "idk"
+displayName: "periodic overhaul"
+subtitle: "ok"
+dependencies: ["multicrafter"]
