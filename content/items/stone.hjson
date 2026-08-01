@@ -1,0 +1,13 @@
+{
+type: material
+name: stone
+description: a basic material used in building or crushed into sand.
+cost: 0.35
+color: ffffff
+research: iron-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
