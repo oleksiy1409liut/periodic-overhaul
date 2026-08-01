@@ -1,2 +1,2 @@
-# pla
-mindustry v7 mod with successfully altered planet generator.  No techs are added. Currently only erekis is progressible. Other 2 planets are  not progressible. It is advisible that you install other mods. 
+inspired by the periodic madness mindustry mod, intends to add all or most of the periodic table elements as items/liquids/gases, currently unfinished
+# KURWA
