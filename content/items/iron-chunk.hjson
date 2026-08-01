@@ -1,0 +1,13 @@
+{
+type: material
+name: iron chunk
+description: dirty and unprocessed iron (Fe) ore in chunks.
+cost: 0.0
+color: ffffff
+research: copper
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
