@@ -1,0 +1,13 @@
+{
+type: material
+name: Zinc Chunk
+description: dirty and unprocessed zinc (Zn) ore in chunks.
+cost: 0.0
+color: ffffff
+research: iron-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
