@@ -1,0 +1,13 @@
+{
+type: material
+name: Crushed Copper Chunk
+description: Crushed copper (Cu) chunk used in further processing/alloying.
+cost: 0.0
+color: ffffff
+research: zinc-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
