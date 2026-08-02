@@ -1,0 +1,14 @@
+name: Basic Acid
+description: Used in chemical processing of certain materials (eg: Zinc (Zn). )
+heatCapacity: 0.1
+explosiveness: 0
+temperature: 0
+coolant: false
+gas: false
+color: 84a94b
+flammability: 0
+gasColor: d2dd76
+barColor: a3d15b
+incinerable: false
+lightColor: d2dd76
+research: water
