@@ -1,0 +1,13 @@
+{
+type: material
+name: Copper Chunk
+description: copper (Cu) chunk with little use.
+cost: 0.0
+color: ffffff
+research: copper
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
