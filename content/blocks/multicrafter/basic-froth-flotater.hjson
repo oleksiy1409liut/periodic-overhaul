@@ -1,0 +1,41 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Basic froth flotater"
+description: "operates on coal to separate hydrophobic and hydrophilic parts of ore chunks, honestly idk what this thing does i just read the wikipedia dont aks me shi dawg."
+size: 3
+itemCapacity: 40
+health: 200
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: separate-zinc
+        input: {
+            items: ["periodic-crushed-zinc-chunk/4", "coal/2"]
+            liquids: ["water/0.5"]
+        }
+        output: {
+            items: ["periodic-zinc-powder/1", "sand/3"]
+        }
+        craftTime: 120  # = 1 seconds
+        unlocked: true
+    }
+    {
+        name: separate-copper
+        input: {
+            items: ["periodic-crushed-copper-chunk/4", "coal/2"]
+            liquids: ["water/0.5"]
+        }
+        output: {
+            items: ["periodic-copper-powder/1", "sand/3"]
+        }
+        craftTime: 120  # = 1.25 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["periodic-iron-plate/30", "periodic-stone/10", "lead/15", "periodic-copper-chunk/10",]
+category: "crafting"
