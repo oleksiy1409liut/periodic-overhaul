@@ -1,0 +1,41 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Basic crusher"
+description: "operates on coal to crush ore chunks into dust-like material for processing, can output by-products, quite inefficient."
+size: 3
+itemCapacity: 40
+health: 200
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: crush-zinc
+        input: {
+            items: ["periodic-zinc-chunk/6", "coal/1"]
+            liquids: []
+        }
+        output: {
+            items: ["periodic-crushed-zinc-chunk/2", "sand/1"]
+        }
+        craftTime: 40  # = 2 seconds
+        unlocked: true
+    }
+    {
+        name: crush-copper
+        input: {
+            items: ["periodic-copper-chunk/6", "coal/1"]
+            liquids: []
+        }
+        output: {
+            items: ["periodic-crushed-copper-chunk/3", "sand/1"]
+        }
+        craftTime: 45  # = 4 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["periodic-iron-plate/20", "periodic-stone/25", "periodic-copper-chunk/15"]
+category: "crafting"
