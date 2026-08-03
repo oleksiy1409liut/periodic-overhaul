@@ -1,1 +1,13 @@
-
+{
+type: material
+name: Zinc Ingot (Zn)
+description: Ingot form of zinc, used in non-structural casts, batteries, alloys or coating.
+cost: 0.5
+color: ffffff
+research: crushed-zinc-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
