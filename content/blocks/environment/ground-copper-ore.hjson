@@ -1,0 +1,4 @@
+type: OreBlock
+name: copper ore
+itemDrop: copper-chunk
+variants: 3
