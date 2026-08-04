@@ -1,0 +1,14 @@
+name: Dirty Water
+description: Produced as by-product of certain processes that require water, can be reprocessed for resources.
+heatCapacity: 0.25
+explosiveness: 0
+temperature: 0.25
+coolant: false
+gas: false
+color: 623c35
+flammability: 0
+gasColor: 804d44
+barColor: 895841
+incinerable: false
+lightColor: 895841
+research: water
