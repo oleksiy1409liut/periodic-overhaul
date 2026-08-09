@@ -39,5 +39,33 @@ jsonRecipes: [
 ]
 
 # Back to the default game variables
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 1.5
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 0.8
+    }
+  ]
+}
+
 requirements: ["periodic-iron-plate/30", "periodic-stone/10", "lead/15", "periodic-copper-chunk/10",]
 category: "crafting"
