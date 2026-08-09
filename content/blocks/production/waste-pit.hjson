@@ -1,0 +1,13 @@
+type: Incinerator
+name: Waste Pit
+description: Solves the problem of item and liquid waste by letting you throw anything you want into this pit, dont fall in!
+size: 8
+health: 3000
+squareSprite: false
+category: crafting
+research: basic-mixer
+requirements: [
+  stone/350
+  iron-plate/35
+]
+researchCostMultiplier: 0.5
