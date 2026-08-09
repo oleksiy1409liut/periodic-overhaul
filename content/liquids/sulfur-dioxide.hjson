@@ -1,0 +1,15 @@
+name: Sulfur Dioxide
+description: Toxic byproduct of certain recipes with sulfur (ex: molybdenum processing) can be used in advanced acid production, highly flammable.
+heatCapacity: 0.05
+viscosity: 0.0
+explosiveness: 0.1
+temperature: 0.25
+coolant: false
+gas: true
+color: 84a94b
+flammability: 0.8
+gasColor: d2dd76
+barColor: a3d15b
+incinerable: false
+lightColor: 
+research: basic-acid
