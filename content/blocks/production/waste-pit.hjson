@@ -1,6 +1,6 @@
-type: Incinerator
-name: Waste Pit
-description: Solves the problem of item and liquid waste by letting you throw anything you want into this pit, dont fall in!
+type: liquidVoid
+name: Item Pit
+description: Solves the problem of item waste by letting you throw anything you want into this pit, dont fall in! (wnated to make it work for both liquids and items but thats kinda hard
 size: 8
 health: 3000
 squareSprite: false
