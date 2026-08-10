@@ -1,0 +1,15 @@
+name: Air Gas
+description: Common gas on serpulo, used in certain processes and boosting flames.
+heatCapacity: 0.1
+viscosity: 0.0
+explosiveness: 0.0
+temperature: 0.22
+coolant: false
+gas: true
+color: a4b8fa
+flammability: 0.3
+gasColor: a4b8fa
+barColor: 919fe7
+incinerable: false
+lightColor: a4b8fa
+research: water
