@@ -1,0 +1,21 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "Basic Air Pump",
+    description: "Pulls in air and wind to store and output it into buildings or pipes.",
+    rotate: true,
+    rotateDraw: true,
+    liquidOutputDirections: [1,2,3,4],
+
+      "consumes": {},
+
+    outputLiquids: [air-gas/0.15,],
+
+    size: 2,
+    health: 175,
+
+    requirements: [
+        "stone/25",
+        "iron-plate/15",
+    ],
+}
