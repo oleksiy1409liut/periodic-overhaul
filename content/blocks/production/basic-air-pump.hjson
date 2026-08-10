@@ -5,9 +5,11 @@
     description: "Pulls in air and wind to store and output it into buildings or pipes.",
     rotate: true,
     rotateDraw: true,
+    liquidCapacity: 90
     liquidOutputDirections: [1,2,3,4],
 
       "consumes": {},
+      craftTime: 60
 
     outputLiquids: [air-gas/0.15,],
 
