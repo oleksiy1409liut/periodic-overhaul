@@ -1,0 +1,78 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Advanced Furnace"
+description: "A bigger and better fueled furnace, uses air flow to increase temperature to allow better recipes."
+size: 2
+itemCapacity: 100
+health: 350
+
+  drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: air-gas
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      y: 25
+      x: 25
+      spinSprite: true
+      rotateSpeed: 2.5
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: ffa665
+      alpha: 0.6
+      glowIntensity: 1
+      glowScale: 0.5
+    }
+  ]
+}
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: copper-from-powder
+        input: {
+            items: ["periodic-copper-powder/6", "coal/2"]
+            liquids: ["periodic-air-gas/0.3"]
+        }
+        output: {
+            items: ["copper/4"]
+        }
+        craftTime: 150  # = 2.5 second
+        unlocked: true
+    }
+    {
+        name: zinc-from-powder
+        input: {
+            items: ["periodic-zinc-powder/6", "coal/2"]
+            liquids: ["periodic-air-gas/0.3"]
+        }
+        output: {
+            items: ["periodic-zinc-ingot/3"]
+        }
+        craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["stone/25", "iron-plate/15", "copper/10"]
+category: "crafting"
