@@ -1,0 +1,13 @@
+{
+type: material
+name: Ammonium Molybdate (Mo)
+description: Molybdenum powder at oxidation state of +6, used as catalyst or for production of molybdenum.
+cost: 0.0
+color: ffffff
+research: purified-molybdenite
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
