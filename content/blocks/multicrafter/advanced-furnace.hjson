@@ -38,8 +38,8 @@ health: 350
       type: DrawGlowRegion
       suffix: -glow
       color: ffa665
-      alpha: 0.6
-      glowScale: 60
+      alpha: 1.7
+      glowScale: 6
     }
   ]
 }
