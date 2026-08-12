@@ -24,7 +24,7 @@ health: 350
     {
       type: DrawRegion
       suffix: -spinner
-      y: -39
+      y: 39
       x: -39
       spinSprite: true
       rotateSpeed: 2.5
