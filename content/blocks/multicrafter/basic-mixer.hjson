@@ -36,6 +36,19 @@ jsonRecipes: [
         craftTime: 120  # = 1.25 seconds
         unlocked: true
     }
+    {
+        name: separate-molybdenite-chunk
+        input: {
+            items: ["periodic-molybdenite-chunk/4", "coal/2"]
+            liquids: ["water/0.2"]
+        }
+        output: {
+            items: ["periodic-purified-molybdenite/2", "periodic-quartz/1", "sand/1"]
+            liquids: [periodic-dirty-water/0.15]
+        }
+        craftTime: 160  # = 1.25 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
