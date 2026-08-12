@@ -1,0 +1,13 @@
+{
+type: material
+name: Molybdenite Chunk
+description: Chunk of Molybdenite (Mo), needs processing for further use.
+cost: 0.0
+color: ffffff
+research: advanced-furnace
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
