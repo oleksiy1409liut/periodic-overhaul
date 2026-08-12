@@ -4,7 +4,7 @@ type: MultiCrafter
 # You can define any block variable below, as long as it is supported by the game.
 name: "Advanced Furnace"
 description: "A bigger and better fueled furnace, uses air flow to increase temperature to allow better recipes."
-size: 2
+size: 4
 itemCapacity: 100
 health: 350
 
@@ -24,8 +24,8 @@ health: 350
     {
       type: DrawRegion
       suffix: -spinner
-      y: 25
-      x: 25
+      y: -39
+      x: -39
       spinSprite: true
       rotateSpeed: 2.5
     }
