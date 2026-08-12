@@ -14,8 +14,6 @@ health: 350
     {
       type: DrawRegion
       suffix: -bottom
-      y: 9.75
-      x: -9.75
     }
     {
       type: DrawLiquidTile
