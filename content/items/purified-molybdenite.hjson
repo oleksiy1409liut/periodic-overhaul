@@ -1,0 +1,13 @@
+{
+type: material
+name: Purified Molybdenite
+description: A more useful molybdenite item, can be used as solid lubricant or to further process into molybdate (Mo).
+cost: 0.0
+color: ffffff
+research: molybdenite-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
