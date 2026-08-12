@@ -37,7 +37,6 @@ health: 350
       suffix: -glow
       color: ffa665
       alpha: 0.6
-      glowIntensity: 1.5
       glowScale: 60
     }
   ]
