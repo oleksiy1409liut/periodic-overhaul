@@ -1,0 +1,13 @@
+{
+type: material
+name: Quartz
+description: crystal-like material formed in caves and geodes, used for different processes.
+cost: 0.5
+color: ffffff
+research: molybdenite-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
