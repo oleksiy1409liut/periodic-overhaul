@@ -1,0 +1,13 @@
+{
+type: material
+name: Molybdenum Powder
+description: Obtained from molybdate reduction, used in smelting into molybdenum plate.
+cost: 0.0
+color: ffffff
+research: molybdate
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
