@@ -70,6 +70,20 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: molybdenum-from-powder
+        input: {
+            items: ["periodic-molybdenum-powder/6", "coal/2"]
+            liquids: ["periodic-air-gas/0.3"]
+        }
+        output: {
+            items: ["periodic-molybdenum-plate/3"]
+        }
+        craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
