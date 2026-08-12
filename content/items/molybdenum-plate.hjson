@@ -2,9 +2,9 @@
 type: material
 name: Molybdenum Plate (Mo)
 description: Great early metal for high-temperature processes, mildly hard.
-cost: 1.0
+cost: 1.7
 color: ffffff
-research: molybdite
+research: molybdate
 explosiveness: 0
 flammability: 0
 radioactivity: 0
