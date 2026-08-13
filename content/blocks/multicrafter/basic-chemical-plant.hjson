@@ -67,6 +67,16 @@ drawer: {
     {
       type: DrawDefault
     }
+     {
+      type: DrawRegion
+      suffix: -spinner
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 2.5
+    }
   ]
 }
 
