@@ -6,6 +6,7 @@ name: "Advanced Furnace"
 description: "A bigger and better fueled furnace, uses air flow to increase temperature to allow better recipes."
 size: 4
 itemCapacity: 100
+liquidcapacity: 160
 health: 350
 
   drawer: {
