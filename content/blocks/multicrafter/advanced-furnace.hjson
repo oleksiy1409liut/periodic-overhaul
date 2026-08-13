@@ -79,6 +79,7 @@ jsonRecipes: [
         }
         output: {
             items: ["periodic-molybdate/3", "sand/1"]
+            liquids: [periodic-sulfur-dioxide/0.1]
         }
         craftTime: 180  # = 3 seconds
 
