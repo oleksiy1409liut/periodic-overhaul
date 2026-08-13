@@ -41,6 +41,6 @@ drawer: {
         "stone/30",
         "iron-plate/25",
         "copper/10",
-        "zinc/15"
+        "zinc-ingot/15"
     ],
 }
