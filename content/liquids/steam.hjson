@@ -1,0 +1,15 @@
+name: Steam
+description: Used for operating a wider range of machines than coal power could, also can be used in certain processes, not usable in tea unlike hot water.
+heatCapacity: 0.5
+viscosity: 0.0
+explosiveness: 0.0
+temperature: 1.65
+coolant: false
+gas: true
+color: ffffff
+flammability: 0
+gasColor: d6dbe7
+barColor: d6dbe7
+incinerable: true
+lightColor: ffffff
+research: water
