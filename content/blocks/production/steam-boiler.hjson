@@ -1,0 +1,46 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "Steam Boiler",
+    description: "Burns coal below water to generate steam.",
+    rotate: false,
+    liquidCapacity: 200
+    itemCapacity: 20
+
+      "consumes": {
+      items: [
+        coal/1
+      ]
+      liquids: [
+        water/0.5
+      ]
+      },
+      craftTime: 180
+
+    outputLiquids: [steam/1.3],
+
+    size: 3,
+    health: 290,
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      alpha: 1
+      glowIntensity: 2
+    }
+  ]
+}
+
+    requirements: [
+        "stone/30",
+        "iron-plate/25",
+        "copper/10",
+        "zinc/15"
+    ],
+}
