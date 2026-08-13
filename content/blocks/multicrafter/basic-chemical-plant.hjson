@@ -62,7 +62,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: basic-acid
-      padding: 1.5
+      padding: 3
     }
     {
       type: DrawDefault
