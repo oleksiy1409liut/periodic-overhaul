@@ -1,0 +1,74 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Basic Chemical Plant"
+description: "Operates on steam to mix chemicals and produce materials."
+size: 3
+itemCapacity: 40
+liquidCapacity: 180
+health: 200
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: basic-acid
+        input: {
+            items: ["periodic-iron-plate/1"]
+            liquids: ["water/0.15", "periodic-steam/0.1", "periodic-sulfur-dioxide/0.2"]
+        }
+        output: {
+            liquids: ["periodic-basic-acid/1.2"]
+        }
+        craftTime: 180  # = 3 seconds
+        unlocked: true
+    }
+    {
+        name: molybdenum-powder
+        input: {
+            items: ["periodic-molybdate/2"]
+            liquids: ["periodic-basic-acid/0.15", "periodic-steam/0.1"]
+        }
+        output: {
+            items: ["periodic-molybdenum-powder/1"]
+            liquids: ["periodic-dirty-water/0.1"]
+        }
+        craftTime: 150  # = 2.5 seconds
+        unlocked: true
+    }
+    {
+        name: placeholderChemPlant3
+        input: {
+            items: ["periodic-molybdenite-chunk/4000", "coal/2000"]
+            liquids: ["water/200"]
+        }
+        output: {
+            items: ["periodic-purified-molybdenite/2", "periodic-quartz/1", "sand/100"]
+            liquids: [periodic-dirty-water/15]
+        }
+        craftTime: 1600  # = 1.25 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: basic-acid
+      padding: 1.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+requirements: ["periodic-iron-plate/35", "copper/10", "lead/15", "periodic-copper-chunk/10",]
+category: "crafting"
