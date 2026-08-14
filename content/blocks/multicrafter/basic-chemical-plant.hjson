@@ -67,10 +67,6 @@ drawer: {
     {
       type: DrawDefault
     }
-     {
-      type: DrawRegion
-      suffix: -spinner
-    }
     {
       type: DrawRegion
       suffix: -spinner
