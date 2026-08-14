@@ -60,10 +60,6 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawRegion
-      suffix: -spinner
-    }
-    {
       type: DrawLiquidTile
       drawLiquid: water
       padding: 3
