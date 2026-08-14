@@ -72,6 +72,18 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: metaglass-from-sand
+        input: {
+            items: ["sand/6", "coal/2"]
+            liquids: ["periodic-air-gas/0.45"]
+        }
+        output: {
+            items: ["metaglass/3"]
+        }
+        craftTime: 150  # = 2.5 second
+        unlocked: true
+    }
+    {
         name: molybdate-from-molybdenite
         input: {
             items: ["periodic-purified-molybdenite/4", "coal/3"]
