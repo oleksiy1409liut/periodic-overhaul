@@ -13,11 +13,11 @@ jsonRecipes: [
     {
         name: crush-zinc
         input: {
-            items: ["periodic-zinc-chunk/3", "coal/1"]
+            items: ["periodic-zinc-chunk/4", "coal/1"]
             liquids: []
         }
         output: {
-            items: ["periodic-crushed-zinc-chunk/1", "sand/1"]
+            items: ["periodic-crushed-zinc-chunk/2", "sand/1"]
         }
         craftTime: 60  # = 1 seconds
         unlocked: true
