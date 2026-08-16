@@ -1,0 +1,13 @@
+{
+type: material
+name: Neodymium Cylinder (Nd)
+description: Processed neodymium metal, used primarily as a metal with high magnetivity. (currently unfinished)
+cost: 2.5
+color: ffffff
+research: copper
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
