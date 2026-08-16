@@ -1,0 +1,13 @@
+{
+type: material
+name: Monazite
+description: Crystal-like ore that must be processed before use.
+cost: 0.0
+color: ffffff
+research: molybdenum-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
