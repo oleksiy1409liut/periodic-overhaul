@@ -1,0 +1,13 @@
+{
+type: material
+name: Tin Chunk
+description: Tin (Sn) chunk with little use.
+cost: 0.0
+color: ffffff
+research: copper-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
