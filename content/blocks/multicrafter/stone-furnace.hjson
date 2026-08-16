@@ -13,6 +13,10 @@ drawers: [
       type: DrawDefault
     }
     {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
       type: DrawGlowRegion
       suffix: -glow
       color: ffa665
