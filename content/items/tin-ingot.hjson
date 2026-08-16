@@ -1,0 +1,13 @@
+{
+type: material
+name: Tin Ingot (Sn)
+description: a more useful form of tin (Sn) used in alloys or intermediates.
+cost: 0.0
+color: ffffff
+research: tin-powder
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
