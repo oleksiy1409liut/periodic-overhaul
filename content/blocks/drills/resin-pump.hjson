@@ -16,5 +16,5 @@ consumes: {
 }
 
 output: resin
-attribute: fruittree
+attribute: heat
 squareSprite: false
