@@ -112,8 +112,22 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: ferrite-core
+        input: {
+            items: ["periodic-zinc-oxide/6", "periodic-iron-oxide/4", "coal/2"]
+            liquids: ["periodic-air-gas/0.3"]
+        }
+        output: {
+            items: ["periodic-ferrite-core/2"]
+        }
+        craftTime: 240  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
-requirements: ["stone/25", "iron-plate/15", "copper/10"]
+requirements: ["stone/25", "iron-plate/15", "copper/15"]
 category: "crafting"
