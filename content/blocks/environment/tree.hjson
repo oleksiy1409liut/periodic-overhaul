@@ -1,6 +1,10 @@
 type: TreeBlock
 name: Tree
 description: "tree"
+destructible: true
 attributes: {
   tree: 1
 }
+requirements: [
+resin/10
+]
