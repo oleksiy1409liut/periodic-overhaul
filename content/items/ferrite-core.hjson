@@ -1,0 +1,13 @@
+{
+type: material
+name: Ferrite Core
+description: Specific compound material with magnetic properties, can replace neodymium as magnet or be used in circuitry.
+cost: 2.5
+color: 9c6d57
+research: zinc-oxide
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
