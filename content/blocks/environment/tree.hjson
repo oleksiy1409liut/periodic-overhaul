@@ -1,0 +1,10 @@
+{
+type: "TreeBlock",
+name: "Tree",
+destructible: "false",
+category: "turret",
+
+    requirements: [
+        "surge-alloy/1999999",
+    ],
+}
