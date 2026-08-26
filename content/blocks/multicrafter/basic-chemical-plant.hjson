@@ -37,16 +37,29 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: placeholderChemPlant3
+        name: zinc-oxide
         input: {
-            items: ["periodic-molybdenite-chunk/4000", "coal/2000"]
-            liquids: ["water/200"]
+            items: ["periodic-zinc-ingot/12"]
+            liquids: ["periodic-steam/0.1", "periodic-air-gas/0.15"]
         }
         output: {
-            items: ["periodic-purified-molybdenite/2", "periodic-quartz/1", "sand/100"]
-            liquids: [periodic-dirty-water/15]
+            items: ["periodic-zinc-oxide/10"]
+            liquids: []
         }
-        craftTime: 1600  # = 1.25 seconds
+        craftTime: 600  # = 1.25 seconds
+        unlocked: true
+    }
+    {
+        name: iron-oxide
+        input: {
+            items: ["periodic-iron-plate/12"]
+            liquids: ["periodic-steam/0.1", "periodic-air-gas/0.15"]
+        }
+        output: {
+            items: ["periodic-iron-oxide/10"]
+            liquids: []
+        }
+        craftTime: 600  # = 1.25 seconds
         unlocked: true
     }
 ]
