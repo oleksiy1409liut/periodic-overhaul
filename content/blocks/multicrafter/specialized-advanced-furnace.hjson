@@ -73,6 +73,21 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: basic-epoxy-resin
+        input: {
+            items: ["periodic-refined-resin/6", "periodic-coke/2"]
+            liquids: ["periodic-air-gas/0.3", "periodic-steam/0.1"]
+        }
+        output: {
+            items: ["periodic-basic-epoxy-resin/4"]
+            liquids: [water/0.01]
+        }
+        craftTime: 240  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
