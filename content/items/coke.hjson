@@ -1,0 +1,13 @@
+{
+type: material
+name: Coke
+description: A better carbon containing material than normal coal, also its better as fuel and used in certain recipes. (no this isnt the drug)
+cost: 0.0
+color: 313131
+research: coal
+explosiveness: 0
+flammability: 1.5
+radioactivity: 0
+charge: 0
+hardness: 0
+}
