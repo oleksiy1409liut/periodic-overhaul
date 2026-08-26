@@ -63,6 +63,19 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: refine-resin
+        input: {
+            items: ["periodic-resin/8", "coal/2"]
+            liquids: ["water/0.3"]
+        }
+        output: {
+            items: ["periodic-refined-resin/6"]
+            liquids: [periodic-dirty-water/0.15]
+        }
+        craftTime: 300  # = 5 seconds
+        unlocked: true
+    }
+    {
         name: separate-aluminium-chunk
         input: {
             items: ["periodic-crushed-aluminium-chunk/4", "coal/2"]
