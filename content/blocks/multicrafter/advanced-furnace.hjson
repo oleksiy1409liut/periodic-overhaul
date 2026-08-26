@@ -84,6 +84,18 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: steel-plate
+        input: {
+            items: ["periodic-iron-plate/4", "coal/4"]
+            liquids: ["periodic-air-gas/0.3"]
+        }
+        output: {
+            items: ["periodic-steel-plate/2"]
+        }
+        craftTime: 180  # = 3 second
+        unlocked: true
+    }
+    {
         name: molybdate-from-molybdenite
         input: {
             items: ["periodic-purified-molybdenite/4", "coal/3"]
