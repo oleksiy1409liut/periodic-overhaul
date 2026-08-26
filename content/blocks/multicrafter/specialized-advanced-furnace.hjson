@@ -1,0 +1,80 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Specialized Advanced Furnace"
+description: "A variant of the advanced furnace with thicker molybdenum and steel lining for specific furnace/oven recipes, also requires steam but less air."
+size: 4
+itemCapacity: 90
+liquidcapacity: 320
+health: 425
+
+  drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: air-gas
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      y: 9.75
+      x: -9.75
+      spinSprite: true
+      rotateSpeed: 3.75
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: ffa665
+      alpha: 1.2
+      glowScale: 6
+    }
+  ]
+}
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: coke-recipe1
+        input: {
+            items: ["coal/4"]
+            liquids: ["periodic-air-gas/0.15", "periodic-steam/0.1"]
+        }
+        output: {
+            items: ["periodic-coke/3"]
+            liquids: ["creosote/0.3"]
+        }
+        craftTime: 240  # = 4 second
+        unlocked: true
+    }
+    {
+        name: silicon-recipe1
+        input: {
+            items: ["periodic-quartz/4", "periodic-coke/2"]
+            liquids: ["periodic-air-gas/0.15", "periodic-steam/0.1"]
+        }
+        output: {
+            items: ["silicon/3"]
+            liquids: [periodic-dirty-water/0.01]
+        }
+        craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["stone/30", "iron-plate/25", "steel-plate/10", "molybdenum-plate/15"]
+category: "crafting"
