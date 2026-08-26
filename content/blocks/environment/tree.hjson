@@ -1,1 +1,6 @@
-
+type: TreeBlock
+name: Tree
+description: "tree"
+attributes: {
+  tree: 1
+}
