@@ -51,8 +51,21 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: powder-refined-aluminium
+        input: {
+            items: ["periodic-aluminium-powder/3", "coal/2"]
+        }
+        output: {
+            items: ["periodic-refined-aluminium/2"]
+        }
+        craftTime: 240  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
-requirements: ["stone/15"]
+requirements: ["stone/25"]
 category: "crafting"
