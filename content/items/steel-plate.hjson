@@ -1,0 +1,13 @@
+{
+type: material
+name: Steel plate (FeC)
+description: A weaker version of steel alloy made from just carbon and iron, stronger than normal iron.
+cost: 2.0
+color: 3c4448
+research: iron-plate
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
