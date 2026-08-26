@@ -34,6 +34,18 @@ jsonRecipes: [
         craftTime: 75  # = 1.25 seconds
         unlocked: true
     }
+    {
+        name: crush-aluminium
+        input: {
+            items: ["periodic-aluminium-chunk/6", "coal/1"]
+            liquids: []
+        }
+        output: {
+            items: ["periodic-crushed-aluminium-chunk/4", "sand/1"]
+        }
+        craftTime: 120  # = 1.25 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
