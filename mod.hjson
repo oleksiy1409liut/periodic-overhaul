@@ -1,11 +1,12 @@
 name: "periodic"
 description: 
 ''' 
-kurwa co ce za mod jebany, inspired by the periodic madness factorio mod
+inspired by the periodic madness factorio mod
+DOESNT WORK WITH VANILLA MAPS
 '''
 author: "oleksiy"
 minGameVersion: 146
-version: "idk"
+version: "0.1"
 displayName: "periodic overhaul"
-subtitle: "ok"
+subtitle: "Ok?"
 dependencies: ["multicrafter"]
