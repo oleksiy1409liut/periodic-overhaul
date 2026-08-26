@@ -1,0 +1,13 @@
+{
+type: material
+name: Basic Epoxy Resin
+description: Used as insulating substrate for basic circuits.
+cost: 0.0
+color: 925e46
+research: refined-resin
+explosiveness: 0
+flammability: 0.1
+radioactivity: 0
+charge: 0
+hardness: 0
+}
