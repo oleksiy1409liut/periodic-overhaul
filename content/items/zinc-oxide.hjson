@@ -1,0 +1,13 @@
+{
+type: material
+name: Zinc Oxide (ZnO)
+description: a rusted/oxidized Zinc material.
+cost: 0.0
+color: 9b928b
+research: zinc-ingot
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
