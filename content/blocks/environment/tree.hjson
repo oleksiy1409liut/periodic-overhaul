@@ -2,6 +2,7 @@
 type: "TreeBlock",
 name: "Tree",
 destructible: "false",
+buildVisibility: InEditor
 category: "turret",
 
 attributes: [
