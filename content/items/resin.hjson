@@ -1,0 +1,13 @@
+{
+type: material
+name: Resin
+description: Unrefined resin straight from a tree, needs processing.
+cost: 0.0
+color: 925e46
+research: coal
+explosiveness: 0
+flammability: 0.5
+radioactivity: 0
+charge: 0
+hardness: 0
+}
