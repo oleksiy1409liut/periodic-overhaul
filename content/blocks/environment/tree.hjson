@@ -10,5 +10,5 @@ category: "turret",
     ],
 }
 attributes: {
-  tree: 1
+tree: 1
 }
