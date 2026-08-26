@@ -1,0 +1,20 @@
+type: WallCrafter
+name: Resin Pump
+description: Slowly collects resin from trees. (code used from the breaking mindustry mod)
+size: 1
+category: production
+requirements: [
+  copper/15
+  graphite/10
+  iron-plate/15
+]
+drillTime: 300
+consumes: {
+  liquids: [
+   steam/0.1
+  ]
+}
+
+output: resin
+attribute: tree
+squareSprite: false
