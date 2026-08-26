@@ -1,0 +1,13 @@
+{
+type: material
+name: Refined Resin
+description: A hakf-refined resin material, still needs further processing.
+cost: 0.0
+color: 925e46
+research: resin
+explosiveness: 0
+flammability: 0.65
+radioactivity: 0
+charge: 0
+hardness: 0
+}
