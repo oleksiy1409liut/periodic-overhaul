@@ -6,7 +6,7 @@ EditorOnly: true
 category: "turret",
 
 attributes: [
-   tree: 1
+   fruittree: 1
 ]
 
     requirements: [
