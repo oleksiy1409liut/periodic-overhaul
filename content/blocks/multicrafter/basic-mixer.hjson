@@ -37,6 +37,19 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: separate-tin
+        input: {
+            items: ["periodic-tin-chunk/8", "coal/2"]
+            liquids: ["water/0.3"]
+        }
+        output: {
+            items: ["periodic-tin-powder/3", "sand/2"]
+            liquids: [periodic-dirty-water/0.26]
+        }
+        craftTime: 240  # = 4 seconds
+        unlocked: true
+    }
+    {
         name: separate-molybdenite-chunk
         input: {
             items: ["periodic-molybdenite-chunk/4", "coal/2"]
