@@ -1,0 +1,13 @@
+{
+type: material
+name: Copper Coil
+description: A coil of copper (Cu) wire, used in electronics (dont ask where the coil base came from)
+cost: 2.5
+color: d99d73
+research: copper
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
