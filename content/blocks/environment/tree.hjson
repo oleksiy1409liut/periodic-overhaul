@@ -4,6 +4,10 @@ name: "Tree",
 destructible: "false",
 category: "turret",
 
+attributes: [
+   tree: 1
+]
+
     requirements: [
         "surge-alloy/1999999",
     ],
