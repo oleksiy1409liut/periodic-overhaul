@@ -1,0 +1,4 @@
+type: OreBlock
+name: Sphalerite Ore
+itemDrop: tin-chunk
+variants: 1
