@@ -2,6 +2,8 @@ type: WallCrafter
 name: Resin Pump
 description: Slowly collects resin from trees. (code used from the breaking mindustry mod)
 size: 1
+rotate: true
+rotateDraw: true
 category: production
 requirements: [
   copper/15
