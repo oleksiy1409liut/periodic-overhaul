@@ -1,0 +1,13 @@
+{
+type: material
+name: Refined Aluminium (Al)
+description: Processed aluminium that can finally be used in electronics.
+cost: 3.0
+color: 346d61
+research: aluminium-powder
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
