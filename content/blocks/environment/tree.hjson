@@ -5,11 +5,10 @@ destructible: "false",
 EditorOnly: true
 category: "turret",
 
-attributes: [
-   heat: 1
-]
-
     requirements: [
         "surge-alloy/1999999",
     ],
+}
+attributes: {
+  tree: 1
 }
