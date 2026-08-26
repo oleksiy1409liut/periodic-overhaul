@@ -1,0 +1,13 @@
+{
+type: material
+name: Aluminium Powder (Al)
+description: Crushed aluminium material, can be smelted or used in certain recipes.
+cost: 0.0
+color: 4fc8af
+research: crushed-aluminium-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
