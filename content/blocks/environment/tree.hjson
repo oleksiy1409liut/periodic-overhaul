@@ -1,15 +1,1 @@
-{
-type: "TreeBlock",
-name: "Tree",
-destructible: "false",
-EditorOnly: true
-category: "turret",
 
-attributes: {
-tree: 1
-}
-
-    requirements: [
-        "surge-alloy/1999999",
-    ],
-}
