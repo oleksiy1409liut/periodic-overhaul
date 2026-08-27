@@ -91,7 +91,7 @@ jsonRecipes: [
     {
         name: meltin-basic-resin
         input: {
-            items: ["periodic-rbasic-epoxy-resin/1", "coal/2"]
+            items: ["periodic-basic-epoxy-resin/1", "coal/2"]
             liquids: ["periodic-air-gas/0.3", "periodic-steam/0.1"]
         }
         output: {
