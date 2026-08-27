@@ -52,7 +52,7 @@ jsonRecipes: [
             liquids: ["periodic-air-gas/0.3"]
         }
         output: {
-            items: ["copper/4"]
+            items: ["copper/5", "periodic-small-ash/1"]
         }
         craftTime: 150  # = 2.5 second
         unlocked: true
@@ -64,7 +64,7 @@ jsonRecipes: [
             liquids: ["periodic-air-gas/0.3"]
         }
         output: {
-            items: ["periodic-zinc-ingot/3"]
+            items: ["periodic-zinc-ingot/3", "periodic-small-ash/1"]
         }
         craftTime: 180  # = 3 seconds
 
@@ -78,7 +78,7 @@ jsonRecipes: [
             liquids: ["periodic-air-gas/0.45"]
         }
         output: {
-            items: ["metaglass/3"]
+            items: ["metaglass/3", "periodic-small-ash/1"]
         }
         craftTime: 150  # = 2.5 second
         unlocked: true
@@ -90,7 +90,7 @@ jsonRecipes: [
             liquids: ["periodic-air-gas/0.3"]
         }
         output: {
-            items: ["periodic-steel-plate/2"]
+            items: ["periodic-steel-plate/2", "periodic-small-ash/2"]
         }
         craftTime: 180  # = 3 second
         unlocked: true
@@ -102,7 +102,7 @@ jsonRecipes: [
             liquids: ["periodic-air-gas/0.45", "water/0.1"]
         }
         output: {
-            items: ["periodic-molybdate/3", "sand/1"]
+            items: ["periodic-molybdate/3", "sand/1", "periodic-small-ash/1"]
             liquids: [periodic-sulfur-dioxide/0.1]
         }
         craftTime: 180  # = 3 seconds
@@ -117,7 +117,7 @@ jsonRecipes: [
             liquids: ["periodic-air-gas/0.3"]
         }
         output: {
-            items: ["periodic-molybdenum-plate/3"]
+            items: ["periodic-molybdenum-plate/4", "periodic-small-ash/1"]
         }
         craftTime: 180  # = 3 seconds
 
@@ -131,7 +131,7 @@ jsonRecipes: [
             liquids: ["periodic-air-gas/0.3"]
         }
         output: {
-            items: ["periodic-ferrite-core/2"]
+            items: ["periodic-ferrite-core/2", "periodic-small-ash/1"]
         }
         craftTime: 240  # = 4 seconds
 
