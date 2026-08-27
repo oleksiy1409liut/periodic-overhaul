@@ -1,0 +1,32 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Basic Assembler"
+description: "Simple steam-powered machine that can do different processes to turn materials into other forms or assemble things."
+size: 3
+itemCapacity: 20
+liquidCapacity: 600
+health: 375
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: copper-coil
+        input: {
+            items: ["copper/1"]
+            liquids: ["periodic-steam/0.1"]
+        }
+        output: {
+            items: ["periodic-copper-coil/2"]
+        }
+        craftTime: 15  # = 0.25 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["steel-plate/30", "iron-plate/40", "copper/20", "molybdenum-plate/20"]
+category: "crafting"
