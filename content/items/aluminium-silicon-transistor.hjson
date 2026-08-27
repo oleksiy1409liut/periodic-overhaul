@@ -1,0 +1,13 @@
+{
+type: material
+name: Aluminium-Silicon Transistor
+description: Small and basic Aluminium-Silicon transistor used in circuits.
+cost: 2.5
+color: eab678
+research: refined-aluminium
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
