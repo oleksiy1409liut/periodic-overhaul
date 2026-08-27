@@ -62,6 +62,19 @@ jsonRecipes: [
         craftTime: 600  # = 1.25 seconds
         unlocked: true
     }
+    {
+        name: aluminium-oxide
+        input: {
+            items: ["periodic-refined-aluminium/9"]
+            liquids: ["periodic-steam/0.1", "periodic-air-gas/0.2"]
+        }
+        output: {
+            items: ["periodic-aluminium-oxide/8"]
+            liquids: []
+        }
+        craftTime: 540  # = 9 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
