@@ -80,10 +80,25 @@ jsonRecipes: [
             liquids: ["periodic-air-gas/0.3", "periodic-steam/0.1"]
         }
         output: {
-            items: ["periodic-basic-epoxy-resin/4"]
+            items: ["periodic-basic-epoxy-resin/4", "periodic-small-ash/1"]
             liquids: [water/0.01]
         }
         craftTime: 240  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: meltin-basic-resin
+        input: {
+            items: ["periodic-rbasic-epoxy-resin/1", "coal/2"]
+            liquids: ["periodic-air-gas/0.3", "periodic-steam/0.1"]
+        }
+        output: {
+            items: ["periodic-small-ash/1"]
+            liquids: [molten-resin/0.1]
+        }
+        craftTime: 120  # = 4 seconds
 
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
