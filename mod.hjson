@@ -6,7 +6,7 @@ DOESNT WORK WITH VANILLA MAPS
 '''
 author: "oleksiy"
 minGameVersion: 146
-version: "0.1"
+version: "0.11"
 displayName: "periodic overhaul"
-subtitle: "Ok?"
+subtitle: "Ok!"
 dependencies: ["multicrafter"]
