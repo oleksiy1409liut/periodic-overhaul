@@ -1,0 +1,13 @@
+{
+type: material
+name: Clay
+description: Gray material found sometimes in lakes and underground, can be dug up and mixed with sand to form ceramic.
+cost: 0.0
+color: 9192a6
+research: sand
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
