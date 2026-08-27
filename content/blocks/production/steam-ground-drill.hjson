@@ -26,6 +26,10 @@ drawer: {
   drawers: [
     {
       type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
       suffix: -spinner
     }
     {
