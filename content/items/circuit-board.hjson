@@ -1,0 +1,13 @@
+{
+type: material
+name: Circuit Board
+description: A flattened copper plate dipped in molten resin for use in circuits.
+cost: 2.5
+color: 313131
+research: molten-resin
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
