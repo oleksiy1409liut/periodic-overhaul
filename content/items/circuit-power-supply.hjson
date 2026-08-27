@@ -1,0 +1,13 @@
+{
+type: material
+name: Circuit Power Supply
+description: Used as a stable power input for circuits and maybe other things. (it doesnt produce energy for the things)
+cost: 2.5
+color: 313131
+research: steel-plate
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
