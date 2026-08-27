@@ -138,8 +138,22 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: ceramic
+        input: {
+            items: ["periodic-clay/3", "sand/1", "coal/2"]
+            liquids: ["periodic-air-gas/0.3"]
+        }
+        output: {
+            items: ["periodic-ceramic/2", "periodic-small-ash/1"]
+        }
+        craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
-requirements: ["stone/25", "iron-plate/15", "copper/15"]
+requirements: ["stone/25", "iron-plate/20", "copper/15"]
 category: "crafting"
