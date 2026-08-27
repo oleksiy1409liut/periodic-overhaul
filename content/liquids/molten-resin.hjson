@@ -1,0 +1,15 @@
+name: Molten Resin
+description: Produced by melting resin at high temperature, used in specific resin-requiring recipes where it cant be used as solid.
+heatCapacity: 0.05
+explosiveness: 0
+viscosity: 0.50
+temperature: 0.5
+coolant: false
+gas: false
+color: 000000
+flammability: 0
+gasColor: 000000
+barColor: 313131
+incinerable: false
+lightColor: 1d1d23
+research: basic-epoxy-resin
