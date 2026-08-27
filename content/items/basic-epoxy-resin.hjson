@@ -1,7 +1,7 @@
 {
 type: material
-name: Basic Epoxy Resin
-description: Used as insulating substrate for basic circuits.
+name: Basic Insulating Resin
+description: Used as inefficient insulating substrate for basic circuits.
 cost: 0.0
 color: 925e46
 research: refined-resin
