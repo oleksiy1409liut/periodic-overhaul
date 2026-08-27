@@ -1,0 +1,13 @@
+{
+type: material
+name: Small Ash Pile
+description: A by-product of certain furnace recipes that require coal/coke, can be recombined into bigger piles for storage/recycling.
+cost: 0.0
+color: 6e7080
+research: coal
+explosiveness: 0
+flammability: 0.05
+radioactivity: 0
+charge: 0
+hardness: 0
+}
