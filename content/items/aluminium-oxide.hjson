@@ -1,0 +1,13 @@
+{
+type: material
+name: Aluminium Oxide
+description: A oxidized variant of aluminium, used as an insulating dielectric
+cost: 0.0
+color: 4cad98
+research: refined-aluminium
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
