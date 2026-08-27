@@ -1,0 +1,38 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "test thing",
+    description: "for testing DrawPiston",
+    rotate: true,
+    rotateDraw: true,
+    liquidCapacity: 90
+    liquidOutputDirections: [1,2,3,4],
+
+      "consumes": {},
+      craftTime: 600
+
+    outputLiquids: [air-gas/0.05,],
+
+    size: 2,
+    health: 175,
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPiston
+      suffix: -spinner
+      sinMag: 5
+      sinScl: 3
+    }
+  ]
+}
+
+    requirements: [
+        "stone/670",
+        "iron-plate/420",
+    ],
+}
