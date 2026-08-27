@@ -1,0 +1,13 @@
+{
+type: material
+name: Aluminium Capacitor
+description: Man, i ran out of things to say in these descriptions, sorry but youre not getting anymore descriptions.
+cost: 2.5
+color: eab678
+research: aluminium-oxide
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
