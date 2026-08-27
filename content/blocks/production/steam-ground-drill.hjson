@@ -1,0 +1,49 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "Steam Ground Drill",
+    description: "Uses the kinetic force of steam to rotate a drill to dig into the ground and produce ground materials.",
+    liquidCapacity: 160
+
+      "consumes": {
+      liquids: [
+        steam/0.2
+        ]
+      },
+      craftTime: 240
+
+    outputItems: [
+      sand/2
+      stone/1
+      clay/2
+    ]
+
+    size: 4,
+    health: 350,
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -spinner
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 0.5
+    }
+  ]
+}
+
+    requirements: [
+        "steel-plate/30",
+        "iron-plate/25",
+        "molybdenum-plate/15",
+        "copper/10"
+    ],
+}
