@@ -1,0 +1,13 @@
+{
+type: material
+name: Ceramic
+description: A fired mix of clay and sand in the form of a plate, can be molded into some circuit components. (and maybe other things)
+cost: 2.0
+color: 623c35
+research: clay
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
