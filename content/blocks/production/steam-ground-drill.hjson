@@ -1,6 +1,6 @@
 {
     type: "GenericCrafter",
-    category: "crafting",
+    category: "production",
     name: "Steam Ground Drill",
     description: "Uses the kinetic force of steam to rotate a drill to dig into the ground and produce ground materials.",
     liquidCapacity: 160
@@ -27,10 +27,6 @@ drawer: {
     {
       type: DrawRegion
       suffix: -bottom
-    }
-    {
-      type: DrawRegion
-      suffix: -spinner
     }
     {
       type: DrawDefault
