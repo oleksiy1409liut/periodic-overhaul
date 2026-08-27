@@ -1,0 +1,13 @@
+{
+type: material
+name: Resistor
+description: Used as part of circuit boards as a resistor. (i ran out of description ideas)
+cost: 2.5
+color: 919fe7
+research: basic-assembler
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
