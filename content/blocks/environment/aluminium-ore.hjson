@@ -1,0 +1,4 @@
+type: OreBlock
+name: Aluminium Ore
+itemDrop: aluminium-chunk
+variants: 3
