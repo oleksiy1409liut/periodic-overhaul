@@ -25,6 +25,62 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: empty-circuit-board
+        input: {
+            items: ["copper/2"]
+            liquids: ["periodic-steam/0.1", "periodic-molten-resin/0.05"]
+        }
+        output: {
+            items: ["periodic-empty-circuit-board/1"]
+        }
+        craftTime: 120  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: resistor
+        input: {
+            items: ["periodic-steel-plate/1", "periodic-ceramic/1", "copper/1"]
+            liquids: ["periodic-steam/0.1"]
+        }
+        output: {
+            items: ["periodic-resistor/1"]
+        }
+        craftTime: 60  # = 1 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: aluminium-silicon-transistor
+        input: {
+            items: ["silicon/2", "periodic-refined-aluminium/1"]
+            liquids: ["periodic-steam/0.1"]
+        }
+        output: {
+            items: ["periodic-aluminium-silicon-transistor/2"]
+        }
+        craftTime: 120  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: aluminium-capacitor
+        input: {
+            items: ["periodic-refined-aluminium/1", "periodic-aluminium-oxide/1"]
+            liquids: ["periodic-steam/0.1"]
+        }
+        output: {
+            items: ["periodic-aluminium-capacitor/1"]
+        }
+        craftTime: 60  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
