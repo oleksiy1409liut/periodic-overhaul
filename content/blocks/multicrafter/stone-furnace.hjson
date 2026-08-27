@@ -33,7 +33,7 @@ jsonRecipes: [
             items: ["periodic-iron-chunk/3", "coal/1"]
         }
         output: {
-            items: ["periodic-iron-plate/1"]
+            items: ["periodic-iron-plate/1", "periodic-small-ash/1"]
         }
         craftTime: 100  # = 1 second
         unlocked: true
@@ -44,7 +44,7 @@ jsonRecipes: [
             items: ["periodic-tin-powder/3", "coal/1"]
         }
         output: {
-            items: ["periodic-tin-ingot/1"]
+            items: ["periodic-tin-ingot/1", "periodic-small-ash/1"]
         }
         craftTime: 120  # = 10 seconds
 
@@ -57,7 +57,7 @@ jsonRecipes: [
             items: ["periodic-aluminium-powder/3", "coal/2"]
         }
         output: {
-            items: ["periodic-refined-aluminium/2"]
+            items: ["periodic-refined-aluminium/2", "periodic-small-ash/1"]
         }
         craftTime: 240  # = 4 seconds
 
