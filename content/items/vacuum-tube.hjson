@@ -1,0 +1,13 @@
+{
+type: material
+name: Vacuum Tube
+description: Does vacuum tube things like its supposed to do. (this isnt a deltarune reference i swear)
+cost: 2.5
+color: ffffff
+research: metaglass
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
