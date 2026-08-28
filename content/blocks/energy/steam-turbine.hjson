@@ -30,6 +30,8 @@ drawer: {
       spinSprite: true
       rotateSpeed: 7.5
     }
+]
+}
 
 consumes: {
 liquids: [
