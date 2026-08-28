@@ -35,7 +35,18 @@ jsonRecipes: [
         output: {
             items: ["periodic-iron-plate/1", "periodic-small-ash/1"]
         }
-        craftTime: 100  # = 1 second
+        craftTime: 120  # = 2 second
+        unlocked: true
+    }
+    {
+        name: magnetite-iron-plate
+        input: {
+            items: ["magnetite-chunk/3", "coal/1"]
+        }
+        output: {
+            items: ["periodic-iron-plate/1", "small-ash/1"]
+        }
+        craftTime: 90  # = 1.5 second
         unlocked: true
     }
     {
