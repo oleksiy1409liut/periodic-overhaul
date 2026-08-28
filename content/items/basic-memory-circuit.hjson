@@ -1,7 +1,7 @@
 {
 type: material
 name: Basic Memory Circuit
-description: Used to store data in 1's and 0's even without electricity, also used as part of a circuit board. (also its the thing that allows things to have more recipes than 8 or sum)
+description: Used to store data in 1's and 0's even without electricity, also used as part of a circuit board. (also its the thing that allows things to have more recipes than 16 or sum)
 cost: 3.0
 color: 313131
 research: circuit-board
