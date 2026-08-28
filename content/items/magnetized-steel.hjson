@@ -1,0 +1,13 @@
+{
+type: material
+name: Magnetized Steel
+description: A magnetized variant of steel metal, can be used as a permanent magnet.
+cost: 2.5
+color: 3c4448
+research: steel-plate
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
