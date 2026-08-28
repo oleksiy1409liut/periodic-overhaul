@@ -1,0 +1,4 @@
+type: OreBlock
+name: Magnetite Ore
+itemDrop: magnetite-chunk
+variants: 1
