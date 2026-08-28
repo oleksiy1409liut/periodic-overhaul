@@ -1,0 +1,13 @@
+{
+type: material
+name: Printed Circuit Board
+description: Uhh technologia or sum
+cost: 3.0
+color: 6aa95e
+research: basic-memory-circuit
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
