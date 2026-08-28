@@ -1,0 +1,13 @@
+{
+type: material
+name: Magnetite Chunk
+description: A piece of magnetized iron ore, can be used to magnetize other things and as another source of iron.
+cost: 0.0
+color: 515151
+research: iron-plate
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
