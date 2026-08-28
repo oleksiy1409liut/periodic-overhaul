@@ -63,6 +63,19 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: bronze-plate
+        input: {
+            items: ["copper-powder/3", "tin-powder/1", "coal/1"]
+        }
+        output: {
+            items: ["bronze-plate/2", "periodic-small-ash/1"]
+        }
+        craftTime: 120  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: powder-refined-aluminium
         input: {
             items: ["periodic-aluminium-powder/3", "coal/2"]
