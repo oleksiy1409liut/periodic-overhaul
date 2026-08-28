@@ -75,6 +75,19 @@ jsonRecipes: [
         craftTime: 540  # = 9 seconds
         unlocked: true
     }
+    {
+        name: magnetized-steel
+        input: {
+            items: ["steel-plate/2", "magnetite-chunk/2"]
+            liquids: ["periodic-steam/0.1"]
+        }
+        output: {
+            items: ["magnetized-steel/2", "magnetite-chunk/1"]
+            liquids: []
+        }
+        craftTime: 240  # = 4 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
