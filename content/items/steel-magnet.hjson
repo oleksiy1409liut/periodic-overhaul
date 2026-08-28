@@ -1,0 +1,13 @@
+{
+type: material
+name: Steel Magnet
+description: A sheet of magnetized steel wrapped around an iron core to act as a magnet for power generation. (and maybe fridge magnets)
+cost: 30.0
+color: 515151
+research: magnetized-steel
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
