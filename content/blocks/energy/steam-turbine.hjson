@@ -1,0 +1,30 @@
+name: Steam Turbine
+description: Uses the flow of hot steam in a pressurized chamber to spin a magnet and generate small amounts of energy.
+type: ConsumeGenerator
+health: 250
+size: 3
+hasPower: true
+hasLiquids: true
+powerProduction: 2
+itemDuration: 60
+outputLiquid: water/0.01
+drawer: {
+  type: DrawMulti
+  drawers: [
+    
+  ]
+}
+consumes: {
+liquids: [
+  steam/0.4
+]
+}
+category: power
+research: steam-boiler
+requirements: [
+steel-plate/35
+bronze-plate/20
+copper-coil/5
+iron-plate/40
+steel-magnet/2
+]
