@@ -81,6 +81,48 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: circuit-power-supply
+        input: {
+            items: ["periodic-steel-plate/2", "periodic-ferrite-core/1", "periodic-ceramic/2", "periodic-copper-coil/1", "copper/1", "periodic-zinc-ingot/1"]
+            liquids: ["periodic-steam/0.15"]
+        }
+        output: {
+            items: ["periodic-circuit-power-supply/1"]
+        }
+        craftTime: 120  # = 1.5 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: basic-memory-circuit
+        input: {
+            items: ["periodic-copper-coil/2", "periodic-empty-circuit-board/1", "periodic-ferrite-core/2", "periodic-circuit-power-supply/1", "periodic-ceramic/1"]
+            liquids: ["periodic-steam/0.1"]
+        }
+        output: {
+            items: ["periodic-basic-memory-circuit/1"]
+        }
+        craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: vacuum-tube
+        input: {
+            items: ["periodic-copper-coil/1", "metaglass/2", "iron-plate/1", "periodic-refined-aluminium/1"]
+            liquids: ["periodic-steam/0.1", "molten-resin/0.05"]
+        }
+        output: {
+            items: ["periodic-vacuum-tube/2"]
+        }
+        craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
