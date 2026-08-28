@@ -5,15 +5,32 @@ health: 250
 size: 3
 hasPower: true
 hasLiquids: true
+liquidCapacity: 600
 powerProduction: 2
 itemDuration: 60
 outputLiquid: water/0.01
 drawer: {
   type: DrawMulti
   drawers: [
-    
-  ]
-}
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: steam
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 7.5
+    }
+
 consumes: {
 liquids: [
   steam/0.4
