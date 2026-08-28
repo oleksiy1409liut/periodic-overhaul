@@ -123,8 +123,22 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: basic-parts
+        input: {
+            items: ["iron-plate/2", "zinc-ingot/1"]
+            liquids: ["periodic-steam/0.1"]
+        }
+        output: {
+            items: ["graphite/3"]
+        }
+        craftTime: 120  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
-requirements: ["steel-plate/30", "iron-plate/40", "copper/20", "molybdenum-plate/20"]
+requirements: ["steel-plate/30", "iron-plate/40", "copper/20"]
 category: "crafting"
