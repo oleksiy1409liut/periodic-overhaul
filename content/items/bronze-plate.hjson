@@ -1,0 +1,13 @@
+{
+type: material
+name: Bronze Plate
+description: no
+cost: 3.5
+color: eab678
+research: copper-powder
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
