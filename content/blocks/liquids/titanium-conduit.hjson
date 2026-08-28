@@ -1,0 +1,7 @@
+name: Bronze-Titanium Conduit
+LocalizedName: Bronze-Titanium Conduit
+requirements: [
+  metaglass/1
+  bronze-plate/1
+  titanium/1
+]
