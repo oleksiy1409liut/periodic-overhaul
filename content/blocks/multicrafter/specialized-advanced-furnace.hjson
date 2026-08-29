@@ -121,13 +121,27 @@ jsonRecipes: [
     {
         name: dolomite-calcination
         input: {
-            items: ["dolomite-chunk/4", "coal/2"]
+            items: ["dolomite-chunk/4"]
             liquids: ["air-gas/0.3", "periodic-steam/0.1"]
         }
         output: {
-            items: ["periodic-small-ash/1", "calcined-dolomite/2"]
+            items: ["calcined-dolomite/2"]
         }
         craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: refined-magnesium
+        input: {
+            items: ["magnesium-chloride/6", "coal/1"]
+            liquids: ["air-gas/0.3", "periodic-steam/0.1"]
+        }
+        output: {
+            items: ["refined-magnesium/3"]
+        }
+        craftTime: 150  # = 2.5 seconds
 
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
