@@ -115,5 +115,5 @@ drawer: {
   ]
 }
 
-requirements: ["periodic-iron-plate/35", "copper/10", "lead/15", "periodic-copper-chunk/10",]
+requirements: ["periodic-iron-plate/35", "copper/10", "lead/15", "periodic-copper-chunk/10", "bronze-plate/15"]
 category: "crafting"
