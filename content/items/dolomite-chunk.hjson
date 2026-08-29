@@ -1,0 +1,13 @@
+{
+type: material
+name: Dolomite Chunk
+description: ok
+cost: 0.0
+color: ffffff
+research: molybdenum-plate
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
