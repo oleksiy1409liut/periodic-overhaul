@@ -82,7 +82,7 @@ jsonRecipes: [
             liquids: ["periodic-steam/0.1", "water/0.2"]
         }
         output: {
-            items: ["magnesium-chloride/2", "calcium-shards/1"]
+            items: ["magnesium-chloride/3", "calcium-shards/1"]
             liquids: []
         }
         craftTime: 180  # = 4 seconds
