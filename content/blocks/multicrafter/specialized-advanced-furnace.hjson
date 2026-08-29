@@ -89,7 +89,7 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: meltin-basic-resin
+        name: melting-basic-resin
         input: {
             items: ["periodic-basic-epoxy-resin/1", "coal/2"]
             liquids: ["periodic-air-gas/0.3", "periodic-steam/0.1"]
@@ -103,8 +103,23 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: sulfur-dioxide
+        input: {
+            items: ["sulfur-chunk/4", "coal/2"]
+            liquids: ["air-gas/0.3", "periodic-steam/0.1"]
+        }
+        output: {
+            items: ["periodic-small-ash/1"]
+            liquids: [sulfur-dioxide/0.3]
+        }
+        craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
-requirements: ["stone/30", "iron-plate/25", "steel-plate/10", "molybdenum-plate/15", "bronze-plate/10"]
+requirements: ["stone/30", "iron-plate/25", "steel-plate/10", "molybdenum-plate/15", "bronze-plate/10", "ceramic/15"]
 category: "crafting"
