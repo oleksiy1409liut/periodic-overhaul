@@ -1,0 +1,13 @@
+{
+type: material
+name: Calcined Dolomite
+description: ok
+cost: 0.0
+color: dcc6c6
+research: dolomite-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
