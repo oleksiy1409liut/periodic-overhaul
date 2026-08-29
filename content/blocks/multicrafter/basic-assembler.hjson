@@ -137,8 +137,22 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: steel-magnet
+        input: {
+            items: ["iron-plate/2", "magnetized-steel/4", "copper-coil/1"]
+            liquids: ["periodic-steam/0.1"]
+        }
+        output: {
+            items: ["steel-magnet/1"]
+        }
+        craftTime: 240  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
-requirements: ["steel-plate/30", "iron-plate/40", "copper/20"]
+requirements: ["steel-plate/30", "iron-plate/40", "copper/20", "bronze-plate/15"]
 category: "crafting"
