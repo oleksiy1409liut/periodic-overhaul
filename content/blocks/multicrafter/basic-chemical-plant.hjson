@@ -76,6 +76,19 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: magnesium-chloride
+        input: {
+            items: ["calcined-dolomite/3"]
+            liquids: ["periodic-steam/0.1", "water/0.2"]
+        }
+        output: {
+            items: ["magnesium-chloride/2", "calcium-shards/1"]
+            liquids: []
+        }
+        craftTime: 180  # = 4 seconds
+        unlocked: true
+    }
+    {
         name: magnetized-steel
         input: {
             items: ["steel-plate/2", "magnetite-chunk/2"]
