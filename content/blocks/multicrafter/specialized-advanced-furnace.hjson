@@ -106,5 +106,5 @@ jsonRecipes: [
 ]
 
 # Back to the default game variables
-requirements: ["stone/30", "iron-plate/25", "steel-plate/10", "molybdenum-plate/15"]
+requirements: ["stone/30", "iron-plate/25", "steel-plate/10", "molybdenum-plate/15", "bronze-plate/10"]
 category: "crafting"
