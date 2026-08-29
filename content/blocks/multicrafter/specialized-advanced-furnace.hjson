@@ -139,7 +139,7 @@ jsonRecipes: [
             liquids: ["air-gas/0.3", "periodic-steam/0.1"]
         }
         output: {
-            items: ["refined-magnesium/3"]
+            items: ["refined-magnesium/4"]
         }
         craftTime: 150  # = 2.5 seconds
 
