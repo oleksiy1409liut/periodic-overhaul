@@ -1,0 +1,13 @@
+{
+type: material
+name: Nickel Powder
+description: ok
+cost: 0.0
+color: aeb4c4
+research: pentlandite-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
