@@ -102,13 +102,13 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: hydrogen1
+        name: hot-air1
         input: {
-            items: ["iron-plate/3"]
+            items: []
             liquids: ["periodic-steam/0.1", "periodic-air-gas/0.3"]
         }
         output: {
-            items: ["iron-plate/2"]
+            items: []
             liquids: ["hot-air/0.3"]
         }
         craftTime: 300  # = 9 seconds
