@@ -1,0 +1,12 @@
+{
+type: liquid
+name: Solder
+description: uhh connecting thingies to circuit boards ig
+cost: 3.5
+color: 8175a5
+lightColor: 9c88c3
+barColor: 8175a5
+gasColor: 9c88c3
+research: lead
+temperature: 0.5
+}
