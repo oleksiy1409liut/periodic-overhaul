@@ -9,14 +9,6 @@ itemCapacity: 90
 liquidcapacity: 320
 health: 650
 
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-
 # The library specific variables
 jsonRecipes: [
     {
@@ -45,4 +37,3 @@ requirements: [
   refined-aluminium/10
   ]
 category: "crafting"
-}
