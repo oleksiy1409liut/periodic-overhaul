@@ -17,7 +17,7 @@ jsonRecipes: [
             liquids: []
         }
         output: {
-            items: ["periodic-crushed-zinc-chunk/2", "sand/1"]
+            items: ["periodic-crushed-zinc-chunk/2", "residue/1"]
         }
         craftTime: 60  # = 1 seconds
         unlocked: true
@@ -29,9 +29,9 @@ jsonRecipes: [
             liquids: []
         }
         output: {
-            items: ["periodic-crushed-copper-chunk/2", "sand/1"]
+            items: ["periodic-crushed-copper-chunk/2", "cobalt-residue/1"]
         }
-        craftTime: 75  # = 1.25 seconds
+        craftTime: 90  # = 1.5 seconds
         unlocked: true
     }
     {
@@ -41,7 +41,7 @@ jsonRecipes: [
             liquids: []
         }
         output: {
-            items: ["nickel-powder/6", "copper-powder/1", "sand/1"]
+            items: ["nickel-powder/6", "copper-powder/1", "cobalt-residue/1"]
         }
         craftTime: 120  # = 2 seconds
         unlocked: true
@@ -53,7 +53,7 @@ jsonRecipes: [
             liquids: []
         }
         output: {
-            items: ["periodic-crushed-aluminium-chunk/4", "sand/1"]
+            items: ["periodic-crushed-aluminium-chunk/4", "residue/1"]
         }
         craftTime: 120  # = 1.25 seconds
         unlocked: true
