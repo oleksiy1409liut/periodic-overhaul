@@ -16,6 +16,7 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
+}
 
 # The library specific variables
 jsonRecipes: [
