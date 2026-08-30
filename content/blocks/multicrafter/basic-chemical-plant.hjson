@@ -37,6 +37,19 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: refined-nickel
+        input: {
+            items: ["nickel-powder/3"]
+            liquids: ["periodic-basic-acid/0.15", "periodic-steam/0.1"]
+        }
+        output: {
+            items: ["refined-nickel/1"]
+            liquids: ["periodic-dirty-water/0.1"]
+        }
+        craftTime: 180  # = 3 seconds
+        unlocked: true
+    }
+    {
         name: zinc-oxide
         input: {
             items: ["periodic-zinc-ingot/12"]
