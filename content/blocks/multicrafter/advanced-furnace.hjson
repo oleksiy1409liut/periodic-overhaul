@@ -125,6 +125,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: refined-cobalt
+        input: {
+            items: ["cobalt-powder/2", "coal/2"]
+            liquids: ["periodic-air-gas/0.3"]
+        }
+        output: {
+            items: ["refined-cobalt/1", "small-ash/1"]
+        }
+        craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: ferrite-core
         input: {
             items: ["periodic-zinc-oxide/6", "periodic-iron-oxide/4", "coal/2"]
