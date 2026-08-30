@@ -47,6 +47,18 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: crush-rock-salt
+        input: {
+            items: ["rock-salt/4", "coal/2"]
+            liquids: []
+        }
+        output: {
+            items: ["sodium-chloride/2", "stone/1", "residue/1"]
+        }
+        craftTime: 90  # = 1.5 seconds
+        unlocked: true
+    }
+    {
         name: crush-chromite
         input: {
             items: ["chromite-chunk/4", "coal/2"]
