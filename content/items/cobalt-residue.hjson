@@ -1,0 +1,13 @@
+{
+type: material
+  name: Cobalt Residue
+description: uhh nickel/copper crushing byproduct or sum
+cost: 0.0
+color: 7090ea
+research: copper-powder
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
