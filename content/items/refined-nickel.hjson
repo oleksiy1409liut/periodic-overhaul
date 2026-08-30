@@ -1,9 +1,9 @@
 {
 type: material
-name: Refined Nickel
+name: Refined Nickel (Ni)
 description: ok
-cost: 0.0
-color: 
+cost: 2.5
+color: e6d9c6
 research: nickel-powder
 explosiveness: 0
 flammability: 0
