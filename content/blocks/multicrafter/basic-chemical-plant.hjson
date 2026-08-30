@@ -12,7 +12,7 @@ health: 200
 # The library specific variables
 jsonRecipes: [
     {
-        name: basic-acid
+        name: basic-acid1
         input: {
             items: ["periodic-iron-plate/1"]
             liquids: ["water/0.15", "periodic-steam/0.1", "periodic-sulfur-dioxide/0.2"]
@@ -24,7 +24,7 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: molybdenum-powder
+        name: molybdenum-powder1
         input: {
             items: ["periodic-molybdate/2"]
             liquids: ["periodic-basic-acid/0.15", "periodic-steam/0.1"]
@@ -37,7 +37,7 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: refined-nickel
+        name: refined-nickel1
         input: {
             items: ["nickel-powder/3"]
             liquids: ["periodic-basic-acid/0.15", "periodic-steam/0.1"]
@@ -50,7 +50,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: zinc-oxide
+        name: cobalt-powder1
+        input: {
+            items: ["cobalt-residue/6"]
+            liquids: ["water/0.15", "periodic-steam/0.1"]
+        }
+        output: {
+            items: ["cobalt-powder/4", "residue/1"]
+            liquids: ["periodic-dirty-water/0.1"]
+        }
+        craftTime: 180  # = 3 seconds
+        unlocked: true
+    }
+    {
+        name: zinc-oxide1
         input: {
             items: ["periodic-zinc-ingot/12"]
             liquids: ["periodic-steam/0.1", "periodic-air-gas/0.15"]
@@ -63,7 +76,7 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: iron-oxide
+        name: iron-oxide1
         input: {
             items: ["periodic-iron-plate/12"]
             liquids: ["periodic-steam/0.1", "periodic-air-gas/0.15"]
@@ -76,7 +89,7 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: aluminium-oxide
+        name: aluminium-oxide1
         input: {
             items: ["periodic-refined-aluminium/9"]
             liquids: ["periodic-steam/0.1", "periodic-air-gas/0.2"]
@@ -89,7 +102,7 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: magnesium-chloride
+        name: magnesium-chloride1
         input: {
             items: ["calcined-dolomite/3"]
             liquids: ["periodic-steam/0.1", "water/0.2"]
@@ -102,7 +115,7 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: magnetized-steel
+        name: magnetized-steel1
         input: {
             items: ["steel-plate/2", "magnetite-chunk/2"]
             liquids: ["periodic-steam/0.1"]
