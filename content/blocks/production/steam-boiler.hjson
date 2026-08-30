@@ -1,7 +1,68 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
 
+# You can define any block variable below, as long as it is supported by the game.
+name: "Steam Boiler"
+description: "Can burn differenty flammable items/liquids to heat up water and turn it into steam."
+size: 3
+itemCapacity: 40
+liquidCapacity: 300
+health: 200
 
-    size: 3,
-    health: 290,
+# The library specific variables
+jsonRecipes: [
+    {
+        name: burn-coal
+        input: {
+            items: ["coal/1", "coal/1"]
+            liquids: ["water/0.5"]
+        }
+        output: {
+            items: []
+            liquids: ["steam/1.3"]
+        }
+        craftTime: 180  # = 1 seconds
+        unlocked: true
+    }
+    {
+        name: burn-coke
+        input: {
+            items: ["coke/1"]
+            liquids: ["water/0.75"]
+        }
+        output: {
+            items: ["small-ash/1"]
+            liquids: ["steam/1.8"]
+        }
+        craftTime: 135  # = 2.25 seconds
+        unlocked: true
+    }
+    {
+        name: burn-creosote
+        input: {
+            liquids: ["water/0.5", "creosote/0.45"]
+        }
+        output: {
+            items: []
+            liquids: ["steam/1.4"]
+        }
+        craftTime: 180  # = 2 seconds
+        unlocked: true
+    }
+    {
+        name: burn-resin
+        input: {
+            items: ["resin/4"]
+            liquids: ["water/0.5"]
+        }
+        output: {
+            items: []
+            liquids: ["steam/1"]
+        }
+        craftTime: 180  # = 1.25 seconds
+        unlocked: true
+    }
+]
 
 drawer: {
   type: DrawMulti
@@ -22,6 +83,6 @@ drawer: {
         "stone/30",
         "iron-plate/25",
         "copper/10",
-        "zinc-ingot/15"
+        "steel-plate/15"
     ],
 }
