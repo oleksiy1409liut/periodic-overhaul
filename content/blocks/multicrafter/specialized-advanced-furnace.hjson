@@ -119,6 +119,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: ferrosilicon
+        input: {
+            items: ["iron-plate/2", "silicon/1"]
+            liquids: ["air-gas/0.3", "periodic-steam/0.1"]
+        }
+        output: {
+            items: ["ferrosilicon/3"]
+        }
+        craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: dolomite-calcination
         input: {
             items: ["dolomite-chunk/4"]
