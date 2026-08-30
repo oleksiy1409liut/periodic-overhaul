@@ -25,6 +25,20 @@ jsonRecipes: [
         craftTime: 120  # = 4 second
         unlocked: true
     }
+    {
+        name: refined-chromium
+        input: {
+            items: ["concentrated-chromite/4", "tin-powder/1"]
+            liquids: ["hot-air/0.15"]
+            power: 0.5
+        }
+        output: {
+            items: ["refined-chromium/2"]
+            liquids: []
+        }
+        craftTime: 90  # = 1.5 second
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
