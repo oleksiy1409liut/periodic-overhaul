@@ -1,0 +1,13 @@
+{
+type: material
+name: Rock Salt
+description: table salt if dwayne johnson stepped on it
+cost: 0.0
+color: ffa5ea
+research: refined-nickel
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
