@@ -35,6 +35,18 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: crush-pentlandite
+        input: {
+            items: ["pentlandite-chunk/8", "coal/2"]
+            liquids: []
+        }
+        output: {
+            items: ["nickel-powder/6", "copper-powder/1", "sand/1"]
+        }
+        craftTime: 120  # = 2 seconds
+        unlocked: true
+    }
+    {
         name: crush-aluminium
         input: {
             items: ["periodic-aluminium-chunk/6", "coal/1"]
