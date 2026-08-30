@@ -14,14 +14,15 @@ jsonRecipes: [
     {
         name: sodium-plate
         input: {
-            items: ["sodium-chloride/3", "refined-magnesium/1"]
+            items: ["sodium-chloride/4", "refined-magnesium/1"]
             liquids: ["hot-air/0.1"]
             power: 0.4
         }
         output: {
-            items: ["sodium-plate/2"]
+            items: ["sodium-plate/3"]
+            liquids: ["chlorine/0.2"]
         }
-        craftTime: 180  # = 3 seconds
+        craftTime: 120  # = 2 seconds
 
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
