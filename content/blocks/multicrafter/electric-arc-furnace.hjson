@@ -16,7 +16,6 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-}
 
 # The library specific variables
 jsonRecipes: [
@@ -46,3 +45,4 @@ requirements: [
   refined-aluminium/10
   ]
 category: "crafting"
+}
