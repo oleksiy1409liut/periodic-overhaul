@@ -1,0 +1,13 @@
+{
+type: material
+name: Refined Nickel
+description: ok
+cost: 0.0
+color: 
+research: nickel-powder
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
