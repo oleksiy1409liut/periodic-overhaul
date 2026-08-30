@@ -1,0 +1,4 @@
+type: OreBlock
+name: Rock Salt Ore
+itemDrop: rock-salt
+variants: 1
