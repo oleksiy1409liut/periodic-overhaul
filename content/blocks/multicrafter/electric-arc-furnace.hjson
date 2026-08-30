@@ -1,0 +1,39 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Electric Arc/Blast Furnace"
+description: "congrats on making pure bullshit to get to this point, now you can melt things for more production and blast things."
+size: 5
+itemCapacity: 90
+liquidcapacity: 320
+health: 650
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: solder
+        input: {
+            items: ["lead/3", "tin-ingot/1"]
+            liquids: ["hot-air/0.15"]
+            power: 0.4
+        }
+        output: {
+            items: []
+            liquids: ["solder/0.5"]
+        }
+        craftTime: 120  # = 4 second
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: [
+  steel-plate/55
+  copper-coil/5
+  basic-memory-circuit/1
+  ceramic/15
+  refined-nickel/10
+  refined-aluminium/10
+  ]
+category: "crafting"
