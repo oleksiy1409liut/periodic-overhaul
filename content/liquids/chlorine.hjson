@@ -1,0 +1,15 @@
+name: Chlorine
+description: if mixed with sodium you get salt, looks like fart
+heatCapacity: 0.0
+viscosity: 0.0
+explosiveness: 0.0
+temperature: 0.2
+coolant: false
+gas: true
+color: 84a94b
+flammability: 0.35
+gasColor: 84a94b
+barColor: d2dd76
+incinerable: false
+lightColor: d2dd76
+research: sodium-chloride
