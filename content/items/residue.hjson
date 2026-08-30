@@ -1,0 +1,13 @@
+{
+type: material
+name: Residue
+description: byproduct of certain recipes (replaces sand in byproducts from now on)
+cost: 0.0
+color: 9b928b
+research: sand
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
