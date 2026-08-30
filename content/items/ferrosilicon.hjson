@@ -1,0 +1,13 @@
+{
+type: material
+name: Ferrosilicon
+description: uhh iron+silicon alloy or sum its cool
+cost: 3.5
+color: 515151
+research: silicon
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
