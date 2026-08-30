@@ -1,0 +1,13 @@
+{
+type: material
+name: Refined Chromium
+description: hes clean now
+cost: 3.5
+color: aaadb7
+research: concentrated-chromite
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
