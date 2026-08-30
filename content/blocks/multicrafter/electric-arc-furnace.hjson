@@ -12,6 +12,20 @@ health: 650
 # The library specific variables
 jsonRecipes: [
     {
+        name: copper2
+        input: {
+            items: ["copper-powder/4", "coke/1"]
+            liquids: ["hot-air/0.15"]
+            power: 0.4
+        }
+        output: {
+            items: ["copper/4", "small-ash/1"]
+            liquids: []
+        }
+        craftTime: 180  # = 4 second
+        unlocked: true
+    }
+    {
         name: solder
         input: {
             items: ["lead/3", "tin-ingot/1"]
