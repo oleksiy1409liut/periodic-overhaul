@@ -102,6 +102,19 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: hydrogen1
+        input: {
+            items: ["iron-plate/3"]
+            liquids: ["periodic-steam/0.1", "periodic-air-gas/0.3"]
+        }
+        output: {
+            items: ["iron-plate/2"]
+            liquids: ["hot-air/0.3"]
+        }
+        craftTime: 300  # = 9 seconds
+        unlocked: true
+    }
+    {
         name: magnesium-chloride1
         input: {
             items: ["calcined-dolomite/3"]
