@@ -1,0 +1,13 @@
+{
+type: material
+name: Sodium Plate
+description: a thicc FAT slab of sodium material, turns into a hazard when contacts water
+cost: 0.0
+color: ffa5ea
+research: sodium-chloride
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
