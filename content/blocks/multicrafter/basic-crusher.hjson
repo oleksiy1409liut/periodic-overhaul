@@ -47,6 +47,18 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: crush-chromite
+        input: {
+            items: ["chromite-chunk/4", "coal/2"]
+            liquids: []
+        }
+        output: {
+            items: ["concentrated-chromite/2", "crushed-iron-chunk/1", "residue/1"]
+        }
+        craftTime: 150  # = 2.5 seconds
+        unlocked: true
+    }
+    {
         name: crush-aluminium
         input: {
             items: ["periodic-aluminium-chunk/6", "coal/1"]
