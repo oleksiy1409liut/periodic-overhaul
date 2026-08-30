@@ -1,0 +1,33 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Electrolysis Plant"
+description: "uhh electrolyzer and electrochemical furnace in same thing, hevaily unfinished."
+size: 3
+itemCapacity: 30
+liquidcapacity: 160
+health: 425
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: sodium-plate
+        input: {
+            items: ["sodium-chloride/3", "refined-magnesium/1"]
+            liquids: ["hot-air/0.1"]
+            power: 0.4
+        }
+        output: {
+            items: ["sodium-plate/2"]
+        }
+        craftTime: 180  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["basic-memory-circuit/1", "copper-coil/5", "molybdenum-plate/20", "lead/10", "steel-plate/15", "graphite/25"]
+category: "crafting"
