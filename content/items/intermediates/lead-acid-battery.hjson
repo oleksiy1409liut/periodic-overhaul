@@ -1,0 +1,13 @@
+{
+type: material
+name: Unformed Lead-Acid Battery
+description: also known as car batteries, uncharged so its useless
+cost: 3.5
+color: 686b7b
+research: sulfuric-acid
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
