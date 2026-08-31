@@ -53,5 +53,5 @@ jsonRecipes: [
 ]
 
 # Back to the default game variables
-requirements: ["periodic-iron-plate/20", "periodic-stone/25", "periodic-copper-chunk/15"]
+requirements: ["steel-plate/25", "refined-aluminium/10", "solder-coil/5", "copper-coil/5", "basic-memory-circuit/1"]
 category: "crafting"
