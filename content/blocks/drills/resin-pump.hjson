@@ -17,6 +17,6 @@ consumes: {
   ]
 }
 
-output: resin, wood
+output: ["resin", "wood"]
 attribute: tree
 squareSprite: false
