@@ -1,0 +1,13 @@
+{
+type: material
+name: Porous Separator
+description: ok
+cost: 2.5
+color: f7cba4
+research: purified-cellulose
+explosiveness: 0
+flammability: 0.25
+radioactivity: 0
+charge: 0
+hardness: 0
+}
