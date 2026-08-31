@@ -39,6 +39,20 @@ jsonRecipes: [
         craftTime: 120  # = 2 seconds
         unlocked: true
     }
+    {
+        name: nitrogen-dioxide
+        input: {
+            items: []
+            liquids: ["nitric-oxide/0.15", "air-gas/0.15"]
+            power: 0.4
+        }
+        output: {
+            items: []
+            liquids: ["nitrogen-dioxide/0.3"]
+        }
+        craftTime: 180  # = 2 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
@@ -51,7 +65,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: solder
+      drawLiquid: hydrogen
       padding: 3
     }
     {
