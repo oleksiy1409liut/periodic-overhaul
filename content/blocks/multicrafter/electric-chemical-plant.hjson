@@ -25,6 +25,20 @@ jsonRecipes: [
         craftTime: 180  # = 3 seconds
         unlocked: true
     }
+    {
+        name: hydrogen
+        input: {
+            items: ["iron-plate/1"]
+            liquids: ["steam/0.5"]
+            power: 0.3
+        }
+        output: {
+            items: ["iron-plate/1"]
+            liquids: ["hydrogen/0.25"]
+        }
+        craftTime: 120  # = 2 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
