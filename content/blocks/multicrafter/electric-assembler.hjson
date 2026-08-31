@@ -1,0 +1,168 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Electric Assembler"
+description: "its better now."
+size: 3
+itemCapacity: 50
+liquidCapacity: 600
+health: 400
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: copper-coil2
+        input: {
+            items: ["copper/2"]
+            liquids: []
+            power: 0.1
+        }
+        output: {
+            items: ["periodic-copper-coil/4"]
+        }
+        craftTime: 40  # = 0.25 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: empty-circuit-board2
+        input: {
+            items: ["copper/2"]
+            liquids: ["periodic-molten-resin/0.05"]
+            power: 0.15
+        }
+        output: {
+            items: ["periodic-empty-circuit-board/1"]
+        }
+        craftTime: 100  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: resistor2
+        input: {
+            items: ["periodic-steel-plate/1", "periodic-ceramic/1", "copper/1"]
+            liquids: []
+            power: 0.1
+        }
+        output: {
+            items: ["periodic-resistor/1"]
+        }
+        craftTime: 50  # = 1 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: aluminium-silicon-transistor2
+        input: {
+            items: ["silicon/2", "periodic-refined-aluminium/1"]
+            liquids: []
+            power: 0.12
+        }
+        output: {
+            items: ["periodic-aluminium-silicon-transistor/2"]
+        }
+        craftTime: 90  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: aluminium-capacitor2
+        input: {
+            items: ["periodic-refined-aluminium/1", "periodic-aluminium-oxide/1"]
+            liquids: []
+            power: 0.1
+        }
+        output: {
+            items: ["periodic-aluminium-capacitor/1"]
+        }
+        craftTime: 50  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: circuit-power-supply2
+        input: {
+            items: ["periodic-steel-plate/2", "periodic-ferrite-core/1", "periodic-ceramic/2", "periodic-copper-coil/1", "copper/1", "periodic-zinc-ingot/1"]
+            liquids: []
+            power: 0.1
+        }
+        output: {
+            items: ["periodic-circuit-power-supply/1"]
+        }
+        craftTime: 120  # = 1.5 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: basic-memory-circuit2
+        input: {
+            items: ["periodic-copper-coil/2", "periodic-empty-circuit-board/1", "periodic-ferrite-core/2", "periodic-circuit-power-supply/1", "periodic-ceramic/1"]
+            liquids: []
+            power: 0.2
+        }
+        output: {
+            items: ["periodic-basic-memory-circuit/1"]
+        }
+        craftTime: 150  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: vacuum-tube2
+        input: {
+            items: ["periodic-copper-coil/1", "metaglass/2", "iron-plate/1", "periodic-refined-aluminium/1"]
+            liquids: ["molten-resin/0.05"]
+            power: 0.15
+        }
+        output: {
+            items: ["periodic-vacuum-tube/2"]
+        }
+        craftTime: 150  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: basic-parts2
+        input: {
+            items: ["iron-plate/2", "zinc-ingot/1"]
+            liquids: []
+            power: 0.1
+        }
+        output: {
+            items: ["graphite/3"]
+        }
+        craftTime: 90  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: steel-magnet2
+        input: {
+            items: ["iron-plate/2", "magnetized-steel/4", "copper-coil/1"]
+            liquids: []
+            power: 0.1
+        }
+        output: {
+            items: ["steel-magnet/1"]
+        }
+        craftTime: 190  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["steel-plate/35", "copper-coil/5", "solder-coil/1", "refined-nickel/10", "basic-memory-circuit/1"]
+category: "crafting"
