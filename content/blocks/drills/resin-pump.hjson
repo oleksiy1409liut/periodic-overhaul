@@ -17,6 +17,9 @@ consumes: {
   ]
 }
 
-outputItems: ["resin", "wood"]
+output: [
+ wood/1
+ resin/1
+]
 attribute: tree
 squareSprite: false
