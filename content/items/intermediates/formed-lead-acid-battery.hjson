@@ -1,0 +1,13 @@
+{
+type: material
+name: Formed Lead-Acid Battery
+description: charged car battery yippe
+cost: 3.5
+color: 686b7b
+research: lead-acid-battery
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
