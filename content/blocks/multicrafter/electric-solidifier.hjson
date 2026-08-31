@@ -1,0 +1,30 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Electric Solidifier"
+description: "molds things and solidifies molten stuff or just stuff into other stuff."
+size: 3
+itemCapacity: 40
+health: 200
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: solder-coil
+        input: {
+            items: ["iron-plate/1"]
+            liquids: ["solder/0.5"]
+            power: 0.1
+        }
+        output: {
+            items: ["solder-coil/1"]
+        }
+        craftTime: 120  # = 1 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["copper-coil/2", "refined-nickel/15", "steel-plate/15", "molybdenum-plate/10"]
+category: "crafting"
