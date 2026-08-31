@@ -26,6 +26,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: iron-plate2
+        input: {
+            items: ["iron-chunk/3", "coal/1"]
+            liquids: ["hot-air/0.15"]
+            power: 0.3
+        }
+        output: {
+            items: ["iron-plate/2"]
+            liquids: []
+        }
+        craftTime: 180  # = 4 second
+        unlocked: true
+    }
+    {
         name: solder
         input: {
             items: ["lead/3", "tin-ingot/1"]
@@ -37,6 +51,20 @@ jsonRecipes: [
             liquids: ["solder/0.5"]
         }
         craftTime: 120  # = 4 second
+        unlocked: true
+    }
+    {
+        name: nitric-oxide
+        input: {
+            items: []
+            liquids: ["hot-air/0.2"]
+            power: 0.3
+        }
+        output: {
+            items: []
+            liquids: ["nitric-oxide/0.3"]
+        }
+        craftTime: 120  # = 2 second
         unlocked: true
     }
     {
