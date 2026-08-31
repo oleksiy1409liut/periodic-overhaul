@@ -1,0 +1,13 @@
+{
+type: material
+name: Wood Pulp
+description: they beat wood into a pulp and poured water on it, how tragic
+cost: 0.0
+color: f7cba4
+research: wood
+explosiveness: 0
+flammability: 0.75
+radioactivity: 0
+charge: 0
+hardness: 0
+}
