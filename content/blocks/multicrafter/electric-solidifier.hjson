@@ -4,7 +4,7 @@ type: MultiCrafter
 # You can define any block variable below, as long as it is supported by the game.
 name: "Electric Solidifier"
 description: "molds things and solidifies molten stuff or just stuff into other stuff."
-size: 3
+size: 2
 itemCapacity: 40
 liquidCapacity: 500
 health: 200
