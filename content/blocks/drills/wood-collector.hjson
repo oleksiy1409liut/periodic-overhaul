@@ -1,0 +1,22 @@
+type: WallCrafter
+name: Wood Collector
+description: Slowly collects wood from trees. (code used from the breaking mindustry mod)
+size: 1
+rotate: true
+rotateDraw: true
+category: production
+requirements: [
+  copper/15
+  graphite/12
+  iron-plate/20
+]
+drillTime: 240
+consumes: {
+  liquids: [
+   steam/0.1
+  ]
+}
+
+outputItems: wood
+attribute: tree
+squareSprite: false
