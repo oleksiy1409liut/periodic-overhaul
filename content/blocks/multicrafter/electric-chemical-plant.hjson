@@ -8,7 +8,6 @@ size: 3
 itemCapacity: 50
 liquidCapacity: 600
 health: 450
-liquidOutputDirections: [1,2,3,4],
 
 # The library specific variables
 jsonRecipes: [
