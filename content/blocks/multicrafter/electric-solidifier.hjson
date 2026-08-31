@@ -23,6 +23,19 @@ jsonRecipes: [
         craftTime: 120  # = 1 seconds
         unlocked: true
     }
+    {
+        name: porous-separator
+        input: {
+            items: ["purified-cellulose/4"]
+            liquids: ["creosote/0.2"]
+            power: 0.15
+        }
+        output: {
+            items: ["porous-separator/1"]
+        }
+        craftTime: 180  # = 1 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
