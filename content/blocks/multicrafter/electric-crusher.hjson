@@ -1,0 +1,57 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Electric crusher"
+description: "you need more POWER, uhh does better crushing and also can use tiny amount of liquid in its recipes"
+size: 3
+itemCapacity: 40
+liquidCapacity: 300
+health: 375
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: wood-pulp
+        input: {
+            items: ["wood/4"]
+            liquids: ["water/0.4"]
+            power: 0.3
+        }
+        output: {
+            items: ["wood-pulp/6"]
+        }
+        craftTime: 150  # = 2.5 seconds
+        unlocked: true
+    }
+    {
+        name: crush-copper2
+        input: {
+            items: ["copper-chunk/4"]
+            liquids: []
+            power: 0.25
+        }
+        output: {
+            items: ["crushed-copper-chunk/3", "cobalt-residue/1"]
+        }
+        craftTime: 90  # = 1.5 seconds
+        unlocked: true
+    }
+    {
+        name: crush-aluminium2
+        input: {
+            items: ["aluminium-chunk/6"]
+            liquids: []
+            power: 0.25
+        }
+        output: {
+            items: ["crushed-aluminium-chunk/5", "residue/1"]
+        }
+        craftTime: 105  # = 1.75 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["periodic-iron-plate/20", "periodic-stone/25", "periodic-copper-chunk/15"]
+category: "crafting"
