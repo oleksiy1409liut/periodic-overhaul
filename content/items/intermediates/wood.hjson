@@ -1,0 +1,13 @@
+{
+type: material
+name: Wood
+description: i hate nature
+cost: 0.0
+color: 623c35
+research: resin-pump
+explosiveness: 0
+flammability: 0.75
+radioactivity: 0
+charge: 0
+hardness: 0
+}
