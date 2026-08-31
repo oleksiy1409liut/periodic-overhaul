@@ -17,6 +17,6 @@ consumes: {
   ]
 }
 
-outputItems: resin
+output: resin
 attribute: tree
 squareSprite: false
