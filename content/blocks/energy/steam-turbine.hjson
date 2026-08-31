@@ -6,9 +6,9 @@ size: 3
 hasPower: true
 hasLiquids: true
 liquidCapacity: 600
-powerProduction: 2
+powerProduction: 1.8
 itemDuration: 60
-outputLiquid: water/0.01
+outputLiquid: water/0.02
 drawer: {
   type: DrawMulti
   drawers: [
@@ -35,7 +35,7 @@ drawer: {
 
 consumes: {
 liquids: [
-  steam/0.4
+  steam/0.55
 ]
 }
 category: power
