@@ -1,7 +1,7 @@
-name: Bronze-Titanium Conduit
-LocalizedName: Bronze-Titanium Conduit
+name: Bronze-Steel Conduit
+LocalizedName: Bronze-Steel Conduit
 requirements: [
-  metaglass/1
+  steel-plate/1
   bronze-plate/1
-  titanium/1
+  solder-coil/1
 ]
