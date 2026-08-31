@@ -1,0 +1,31 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Electric Charger"
+description: "IC2 batbox thing but in mindustry ig."
+size: 3
+itemCapacity: 80
+liquidCapacity: 600
+health: 350
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: lead-electrode
+        input: {
+            items: ["lead/2"]
+            liquids: ["sulfuric-acid/0.1"]
+            power: 1.25
+        }
+        output: {
+            items: ["lead-electrode/1"]
+        }
+        craftTime: 120  # = 1 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["basic-memory-circuit/1", "copper-coil/10", "steel-plate/25", "refined-nickel/10", "refined-chromium/5", "lead/15"]
+category: "crafting"
