@@ -161,6 +161,21 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: lead-acid-battery
+        input: {
+            items: ["porous-separator/2", "lead-electrode/2", "lead/4", "steel-plate/2", "ceramic/4", "cobalt-powder/1"]
+            liquids: ["sulfuric-acid/0.15"]
+            power: 0.25
+        }
+        output: {
+            items: ["lead-acid-battery/1"]
+        }
+        craftTime: 210  # = 3.5 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
