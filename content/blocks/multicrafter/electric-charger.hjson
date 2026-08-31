@@ -12,16 +12,29 @@ health: 350
 # The library specific variables
 jsonRecipes: [
     {
-        name: lead-electrode
+        name: lead-electrode-bad
         input: {
             items: ["lead/2"]
-            liquids: ["sulfuric-acid/0.1"]
-            power: 1.25
+            liquids: ["basic-acid/1"]
+            power: 1.75
         }
         output: {
             items: ["lead-electrode/1"]
         }
         craftTime: 120  # = 1 seconds
+        unlocked: true
+    }
+    {
+        name: lead-electrode-good
+        input: {
+            items: ["lead/2"]
+            liquids: ["sulfuric-acid/0.4"]
+            power: 1.25
+        }
+        output: {
+            items: ["lead-electrode/1"]
+        }
+        craftTime: 100  # = 1 seconds
         unlocked: true
     }
 ]
