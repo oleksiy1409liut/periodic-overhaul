@@ -37,6 +37,19 @@ jsonRecipes: [
         craftTime: 100  # = 1 seconds
         unlocked: true
     }
+    {
+        name: charge-lead-acid-battery
+        input: {
+            items: ["lead-acid-battery/1"]
+            liquids: []
+            power: 5.4
+        }
+        output: {
+            items: ["formed-lead-acid-battery/1"]
+        }
+        craftTime: 540  # = 9 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
