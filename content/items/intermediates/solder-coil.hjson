@@ -1,0 +1,13 @@
+{
+type: material
+name: Solder Coil
+description: can be used in like buildings and shi
+cost: 1.0
+color: 8175a5
+research: solder
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
