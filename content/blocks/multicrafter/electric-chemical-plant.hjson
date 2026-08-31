@@ -1,0 +1,56 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Electric Chemical Plant"
+description: "can do the processes of: oxidation, chemicals, cracking, crystallization."
+size: 3
+itemCapacity: 50
+liquidCapacity: 600
+health: 450
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: sodium-hydroxide
+        input: {
+            items: ["sodium-plate/1"]
+            liquids: ["hydrogen/0.2", "air-gas/0.15"]
+            power: 0.4
+        }
+        output: {
+            items: ["sodium-hydroxide/2"]
+            liquids: []
+        }
+        craftTime: 180  # = 3 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: solder
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 3.5
+    }
+  ]
+}
+
+requirements: ["steel-plate/35", "copper-coil/10", "lead/20", "bronze-plate/15", "basic-memory-circuit/1", "solder-coil/2"]
+category: "crafting"
