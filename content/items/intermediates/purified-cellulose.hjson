@@ -1,0 +1,13 @@
+{
+type: material
+name: Purified Cellulose (C6H10O5)
+description: its pure
+cost: 0.0
+color: f7cba4
+research: wood-pulp
+explosiveness: 0
+flammability: 0.5
+radioactivity: 0
+charge: 0
+hardness: 0
+}
