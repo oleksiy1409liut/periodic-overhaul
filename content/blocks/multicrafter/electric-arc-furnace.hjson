@@ -54,6 +54,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: sulfur-dioxide2
+        input: {
+            items: ["sulfur-chunk/2"]
+            liquids: ["hot-air/0.15"]
+            power: 0.4
+        }
+        output: {
+            items: []
+            liquids: ["sulfur-dioxide/0.5"]
+        }
+        craftTime: 150  # = 2.5 second
+        unlocked: true
+    }
+    {
         name: nitric-oxide
         input: {
             items: []
