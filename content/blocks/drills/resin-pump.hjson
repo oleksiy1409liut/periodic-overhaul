@@ -1,6 +1,6 @@
 type: WallCrafter
-name: Tree Collector
-description: Slowly collects resin and wood from trees. (code used from the breaking mindustry mod)
+name: Resin Collector
+description: Slowly collects resin from trees. (code used from the breaking mindustry mod)
 size: 1
 rotate: true
 rotateDraw: true
@@ -17,9 +17,6 @@ consumes: {
   ]
 }
 
-outputItems: [
- wood/1
- resin/1
-]
+outputItems: resin
 attribute: tree
 squareSprite: false
