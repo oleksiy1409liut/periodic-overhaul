@@ -1,0 +1,15 @@
+name: Nitric Oxide (NO)
+description: hot air mk2/jk
+heatCapacity: 0
+viscosity: 0.0
+explosiveness: 0.0
+temperature: 0.3
+coolant: false
+gas: true
+color: ffffff
+flammability: 0.3
+gasColor: ffffff
+barColor: ffffff
+incinerable: false
+lightColor: ffffff
+research: air-gas
