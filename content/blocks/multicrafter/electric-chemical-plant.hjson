@@ -76,7 +76,7 @@ jsonRecipes: [
         }
         output: {
             items: []
-            liquids: ["sulfuric-acid/0.5"]
+            liquids: ["sulfuric-acid/0.75"]
         }
         craftTime: 200  # = 3.333 seconds
         unlocked: true
