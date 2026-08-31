@@ -1,0 +1,15 @@
+name: Sulfuric Acid
+description: uhh better acid that also needs more sulfur stuff but cheaper recipes
+heatCapacity: 0.1
+viscosity: 0.0
+explosiveness: 0
+temperature: 0.25
+coolant: false
+gas: false
+color: 84a94b
+flammability: 0
+gasColor: d2dd76
+barColor: a3d15b
+incinerable: false
+lightColor: d2dd76
+research: sulfur-chunk
