@@ -8,6 +8,7 @@ size: 3
 itemCapacity: 50
 liquidCapacity: 600
 health: 450
+liquidOutputDirections: [1,2,3,4],
 
 # The library specific variables
 jsonRecipes: [
@@ -51,6 +52,20 @@ jsonRecipes: [
             liquids: ["nitrogen-dioxide/0.3"]
         }
         craftTime: 180  # = 2 seconds
+        unlocked: true
+    }
+    {
+        name: sulfuric-acid
+        input: {
+            items: ["sulfur-chunk/1"]
+            liquids: ["nitrogen-dioxide/0.15", "water/0.2", "sulfur-dioxide/0.2"]
+            power: 0.4
+        }
+        output: {
+            items: []
+            liquids: ["sulfuric-acid/0.5", "nitric-oxide/0.1"]
+        }
+        craftTime: 200  # = 3.333 seconds
         unlocked: true
     }
 ]
