@@ -17,7 +17,7 @@ consumes: {
   ]
 }
 
-output: [
+outputItems: [
  wood/1
  resin/1
 ]
