@@ -55,6 +55,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: purified-cellulose
+        input: {
+            items: ["wood-pulp/9", "sodium-hydroxide/4"]
+            liquids: []
+            power: 0.3
+        }
+        output: {
+            items: ["purified-cellulose/4"]
+            liquids: []
+        }
+        craftTime: 120  # = 2 seconds
+        unlocked: true
+    }
+    {
         name: sulfuric-acid
         input: {
             items: ["sulfur-chunk/1"]
