@@ -17,6 +17,6 @@ consumes: {
   ]
 }
 
-outputItems: wood
+output: wood
 attribute: tree
 squareSprite: false
