@@ -6,6 +6,7 @@ name: "Electric Solidifier"
 description: "molds things and solidifies molten stuff or just stuff into other stuff."
 size: 3
 itemCapacity: 40
+liquidCapacity: 500
 health: 200
 
 # The library specific variables
