@@ -6,10 +6,10 @@ explosiveness: 0.0
 temperature: 0.5
 coolant: false
 gas: true
-color: a4b8fa
+color: d19b8b
 flammability: 0.2
-gasColor: a4b8fa
-barColor: 919fe7
+gasColor: d19b8b
+barColor: d19b8b
 incinerable: false
-lightColor: a4b8fa
+lightColor: ffded4
 research: air-gas
