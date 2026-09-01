@@ -1,0 +1,13 @@
+{
+type: material
+name: Germanium Powder
+description: ok
+cost: 0.0
+color: 989aa4
+research: zinc-residue
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
