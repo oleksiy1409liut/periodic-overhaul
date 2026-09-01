@@ -40,6 +40,122 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: zinc-from-powder2
+        input: {
+            items: ["periodic-zinc-powder/6", "coal/1"]
+            liquids: ["periodic-hot-air/0.15"]
+            power: 0.2
+        }
+        output: {
+            items: ["periodic-zinc-ingot/4"]
+        }
+        craftTime: 150  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: metaglass-from-sand2
+        input: {
+            items: ["sand/6", "coal/1"]
+            liquids: ["hot-air/0.15"]
+            power: 0.15
+        }
+        output: {
+            items: ["metaglass/4"]
+        }
+        craftTime: 120  # = 2.5 second
+        unlocked: true
+    }
+    {
+        name: steel-plate2
+        input: {
+            items: ["periodic-iron-plate/4", "coke/2"]
+            liquids: ["periodic-hot-air/0.3"]
+            power: 0.2
+        }
+        output: {
+            items: ["periodic-steel-plate/3", "periodic-small-ash/1"]
+        }
+        craftTime: 150  # = 3 second
+        unlocked: true
+    }
+    {
+        name: molybdate-from-molybdenite2
+        input: {
+            items: ["periodic-purified-molybdenite/6", "coke/1"]
+            liquids: ["periodic-hot-air/0.15", "water/0.1"]
+            power: 0.15
+        }
+        output: {
+            items: ["periodic-molybdate/4", "residue/1"]
+            liquids: [periodic-sulfur-dioxide/0.15]
+        }
+        craftTime: 150  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: molybdenum-from-powder2
+        input: {
+            items: ["periodic-molybdenum-powder/6", "coke/1"]
+            liquids: ["periodic-hot-air/0.3"]
+            power: 0.25
+        }
+        output: {
+            items: ["periodic-molybdenum-plate/4"]
+        }
+        craftTime: 150  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: refined-cobalt2
+        input: {
+            items: ["cobalt-powder/3", "coke/1"]
+            liquids: ["periodic-hot-air/0.15"]
+            power: 0.15
+        }
+        output: {
+            items: ["refined-cobalt/2"]
+        }
+        craftTime: 150  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: ferrite-core2
+        input: {
+            items: ["periodic-zinc-oxide/6", "periodic-iron-oxide/6", "coke/2"]
+            liquids: ["periodic-hot-air/0.15"]
+            power: 0.2
+        }
+        output: {
+            items: ["periodic-ferrite-core/3", "periodic-small-ash/2"]
+        }
+        craftTime: 210  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: ceramic2
+        input: {
+            items: ["periodic-clay/4", "sand/2", "coke/1"]
+            liquids: ["periodic-hot-air/0.15"]
+        }
+        output: {
+            items: ["periodic-ceramic/4"]
+        }
+        craftTime: 150  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: solder
         input: {
             items: ["lead/3", "tin-ingot/1"]
