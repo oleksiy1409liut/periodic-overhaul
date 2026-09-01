@@ -1,0 +1,15 @@
+name: Distilled Water (H2O)
+description: they gave your water a shower
+heatCapacity: 0.4
+explosiveness: 0
+viscosity: 0.0
+temperature: 0.22
+coolant: false
+gas: false
+color: 8ca9e8
+flammability: 0
+gasColor: 8ca9e8
+barColor: 8ca9e8
+incinerable: false
+lightColor: d1efff
+research: steam
