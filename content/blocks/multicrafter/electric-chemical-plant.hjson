@@ -152,6 +152,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: distilled-water
+        input: {
+            items: []
+            liquids: ["steam/0.9"]
+            power: 0.15
+        }
+        output: {
+            items: []
+            liquids: ["distilled-water/0.45"]
+        }
+        craftTime: 180  # = 2 seconds
+        unlocked: true
+    }
+    {
         name: hot-air2
         input: {
             items: []
