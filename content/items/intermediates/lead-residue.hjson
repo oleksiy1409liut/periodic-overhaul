@@ -1,0 +1,13 @@
+{
+type: material
+name: Lead Residue
+description: lead production byproduct
+cost: 0.0
+color: 8175a5
+research: lead-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
