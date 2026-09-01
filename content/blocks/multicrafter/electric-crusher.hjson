@@ -38,6 +38,58 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: crush-zinc2
+        input: {
+            items: ["periodic-zinc-chunk/4"]
+            liquids: []
+            power: 0.15
+        }
+        output: {
+            items: ["periodic-crushed-zinc-chunk/3", "residue/1"]
+        }
+        craftTime: 50  # = 1 seconds
+        unlocked: true
+    }
+    {
+        name: crush-pentlandite2
+        input: {
+            items: ["pentlandite-chunk/9"]
+            liquids: []
+            power: 0.2
+        }
+        output: {
+            items: ["nickel-powder/7", "copper-powder/1", "cobalt-residue/2"]
+        }
+        craftTime: 100  # = 1.777 seconds
+        unlocked: true
+    }
+    {
+        name: crush-rock-salt2
+        input: {
+            items: ["rock-salt/4"]
+            liquids: []
+            power: 0.15
+        }
+        output: {
+            items: ["sodium-chloride/3", "stone/1", "residue/1"]
+        }
+        craftTime: 80  # = 1.5 seconds
+        unlocked: true
+    }
+    {
+        name: crush-chromite2
+        input: {
+            items: ["chromite-chunk/6"]
+            liquids: []
+            power: 0.15
+        }
+        output: {
+            items: ["concentrated-chromite/4", "crushed-iron-chunk/1", "residue/1"]
+        }
+        craftTime: 120  # = 2 seconds
+        unlocked: true
+    }
+    {
         name: crush-aluminium2
         input: {
             items: ["aluminium-chunk/6"]
