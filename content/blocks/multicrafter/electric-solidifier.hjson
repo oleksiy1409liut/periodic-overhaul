@@ -40,5 +40,5 @@ jsonRecipes: [
 ]
 
 # Back to the default game variables
-requirements: ["copper-coil/2", "refined-nickel/15", "steel-plate/15", "molybdenum-plate/10"]
+requirements: ["copper-coil/2", "refined-nickel/15", "steel-plate/15", "molybdenum-plate/10", "basic-memory-circuit/1"]
 category: "crafting"
