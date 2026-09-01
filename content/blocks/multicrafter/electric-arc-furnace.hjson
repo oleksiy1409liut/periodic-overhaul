@@ -28,7 +28,7 @@ jsonRecipes: [
     {
         name: iron-plate2
         input: {
-            items: ["iron-chunk/3", "coal/1"]
+            items: ["crushed-iron-chunk/4", "coal/1"]
             liquids: ["hot-air/0.15"]
             power: 0.3
         }
