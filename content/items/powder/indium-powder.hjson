@@ -1,0 +1,13 @@
+{
+type: material
+name: Indium Powder
+description: smells like india for some reason/jk
+cost: 0.0
+color: 777880
+research: zinc-residue
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
