@@ -25,6 +25,32 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: crush-iron2
+        input: {
+            items: ["iron-chunk/2"]
+            liquids: []
+            power: 0.25
+        }
+        output: {
+            items: ["crushed-iron-chunk/6", "residue/1"]
+        }
+        craftTime: 90  # = 1.5 seconds
+        unlocked: true
+    }
+    {
+        name: crush-magnetite2
+        input: {
+            items: ["magnetite-chunk/3"]
+            liquids: []
+            power: 0.25
+        }
+        output: {
+            items: ["crushed-iron-chunk/6", "residue/1"]
+        }
+        craftTime: 90  # = 1.5 seconds
+        unlocked: true
+    }
+    {
         name: crush-copper2
         input: {
             items: ["copper-chunk/4"]
