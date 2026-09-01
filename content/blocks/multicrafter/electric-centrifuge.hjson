@@ -117,7 +117,7 @@ jsonRecipes: [
             power: 0.15
         }
         output: {
-            items: ["cadmium-powder/1", "indium-powder/2", "germanium-powder/1]
+            items: ["cadmium-powder/1", "indium-powder/2", "germanium-powder/1"]
             liquids: ["dirty-water/0.05"]
         }
         craftTime: 150  # = 3 seconds
