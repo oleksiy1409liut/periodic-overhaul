@@ -12,6 +12,118 @@ health: 450
 # The library specific variables
 jsonRecipes: [
     {
+        name: molybdenum-powder2
+        input: {
+            items: ["periodic-molybdate/2"]
+            liquids: ["periodic-basic-acid/0.1"]
+            power: 0.1
+        }
+        output: {
+            items: ["periodic-molybdenum-powder/1"]
+            liquids: ["periodic-dirty-water/0.05"]
+        }
+        craftTime: 120  # = 2.5 seconds
+        unlocked: true
+    }
+    {
+        name: refined-nickel2
+        input: {
+            items: ["nickel-powder/4"]
+            liquids: ["periodic-basic-acid/0.1"]
+            power: 0.15
+        }
+        output: {
+            items: ["refined-nickel/2"]
+            liquids: ["periodic-dirty-water/0.05"]
+        }
+        craftTime: 150  # = 3 seconds
+        unlocked: true
+    }
+    {
+        name: cobalt-powder2
+        input: {
+            items: ["cobalt-residue/5"]
+            liquids: ["water/0.15"]
+            power: 0.1
+        }
+        output: {
+            items: ["cobalt-powder/4", "residue/1"]
+            liquids: ["periodic-dirty-water/0.1"]
+        }
+        craftTime: 150  # = 3 seconds
+        unlocked: true
+    }
+    {
+        name: zinc-oxide2
+        input: {
+            items: ["periodic-zinc-ingot/11"]
+            liquids: ["periodic-air-gas/0.15"]
+            power: 0.05
+        }
+        output: {
+            items: ["periodic-zinc-oxide/10"]
+            liquids: []
+        }
+        craftTime: 540  # = 1.25 seconds
+        unlocked: true
+    }
+    {
+        name: iron-oxide2
+        input: {
+            items: ["periodic-iron-plate/11"]
+            liquids: ["periodic-air-gas/0.15"]
+            power: 0.05
+        }
+        output: {
+            items: ["periodic-iron-oxide/10"]
+            liquids: []
+        }
+        craftTime: 540  # = 1.25 seconds
+        unlocked: true
+    }
+    {
+        name: aluminium-oxide2
+        input: {
+            items: ["periodic-refined-aluminium/10"]
+            liquids: ["periodic-air-gas/0.2"]
+            power: 0.1
+        }
+        output: {
+            items: ["periodic-aluminium-oxide/9"]
+            liquids: []
+        }
+        craftTime: 510  # = 8.5 seconds
+        unlocked: true
+    }
+    {
+        name: magnesium-chloride2
+        input: {
+            items: ["calcined-dolomite/3"]
+            liquids: ["water/0.2"]
+            power: 0.15
+        }
+        output: {
+            items: ["magnesium-chloride/3", "calcium-shards/1"]
+            liquids: []
+        }
+        craftTime: 150  # = 4 seconds
+        unlocked: true
+    }
+    {
+        name: magnetized-steel2
+        input: {
+            items: ["steel-plate/4", "magnetite-chunk/2"]
+            liquids: []
+            power: 0.2
+        }
+        output: {
+            items: ["magnetized-steel/4", "magnetite-chunk/2"]
+            liquids: []
+        }
+        craftTime: 210  # = 3.5 seconds
+        unlocked: true
+    }
+    {
         name: sodium-hydroxide
         input: {
             items: ["sodium-plate/1"]
