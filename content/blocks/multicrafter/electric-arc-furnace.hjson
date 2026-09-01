@@ -26,6 +26,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: lead1
+        input: {
+            items: ["lead-powder/4", "coke/1"]
+            liquids: ["hot-air/0.15"]
+            power: 0.2
+        }
+        output: {
+            items: ["lead/3"]
+            liquids: []
+        }
+        craftTime: 150  # = 4 second
+        unlocked: true
+    }
+    {
         name: iron-plate2
         input: {
             items: ["crushed-iron-chunk/4", "coal/1"]
