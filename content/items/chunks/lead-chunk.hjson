@@ -1,0 +1,13 @@
+{
+type: material
+name: Lead Chunk
+description: raw lead + raw copper = holy metal
+cost: 0.0
+color: 8175a5
+research: copper
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
