@@ -19,7 +19,7 @@ jsonRecipes: [
             power: 0.1
         }
         output: {
-            items: ["periodic-zinc-powder/3", "residue/1"]
+            items: ["periodic-zinc-powder/3", "zinc-residue/2"]
             liquids: [periodic-dirty-water/0.1]
         }
         craftTime: 120  # = 1 seconds
@@ -33,7 +33,7 @@ jsonRecipes: [
             power: 0.15
         }
         output: {
-            items: ["periodic-copper-powder/4", "residue/1"]
+            items: ["periodic-copper-powder/4", "copper-residue/2"]
             liquids: [periodic-dirty-water/0.1]
         }
         craftTime: 90  # = 1.25 seconds
