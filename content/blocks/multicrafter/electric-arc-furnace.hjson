@@ -55,6 +55,51 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: powder-tin-ingot2
+        input: {
+            items: ["periodic-tin-powder/5", "coke/1"]
+            liquids: ["hot-air/0.15"]
+            power: 0.1
+        }
+        output: {
+            items: ["periodic-tin-ingot/3"]
+        }
+        craftTime: 100  # = 10 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: bronze-plate2
+        input: {
+            items: ["copper-powder/6", "tin-powder/2", "coke/1"]
+            liquids: ["hot-air/0.15"]
+            power: 0.1
+        }
+        output: {
+            items: ["bronze-plate/6"]
+        }
+        craftTime: 100  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: powder-refined-aluminium2
+        input: {
+            items: ["periodic-aluminium-powder/6", "coke/1"]
+            liquids: ["hot-air/0.15"]
+            power: 0.15
+        }
+        output: {
+            items: ["periodic-refined-aluminium/4"]
+        }
+        craftTime: 210  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: metaglass-from-sand2
         input: {
             items: ["sand/6", "coal/1"]
