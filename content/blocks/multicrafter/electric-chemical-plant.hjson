@@ -152,6 +152,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: hot-air2
+        input: {
+            items: []
+            liquids: ["air-gas/0.45"]
+            power: 0.3
+        }
+        output: {
+            items: []
+            liquids: ["hot-air/0.45"]
+        }
+        craftTime: 120  # = 2 seconds
+        unlocked: true
+    }
+    {
         name: nitrogen-dioxide
         input: {
             items: []
