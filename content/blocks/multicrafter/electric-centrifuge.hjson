@@ -40,6 +40,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: separate-lead1
+        input: {
+            items: ["lead-chunk/6"]
+            liquids: ["distilled-water/0.15"]
+            power: 0.15
+        }
+        output: {
+            items: ["lead-powder/4", "lead-residue/2"]
+            liquids: [periodic-dirty-water/0.1]
+        }
+        craftTime: 90  # = 1.25 seconds
+        unlocked: true
+    }
+    {
         name: separate-tin2
         input: {
             items: ["periodic-tin-chunk/8"]
@@ -91,6 +105,20 @@ jsonRecipes: [
         output: {
             items: ["periodic-aluminium-powder/5", "residue/1"]
             liquids: ["periodic-dirty-water/0.25"]
+        }
+        craftTime: 150  # = 3 seconds
+        unlocked: true
+    }
+    {
+        name: separate-zinc-residue
+        input: {
+            items: ["zinc-residue/6"]
+            liquids: ["distilled-water/0.1"]
+            power: 0.15
+        }
+        output: {
+            items: ["cadmium-powder/1", "indium-powder/2", "germanium-powder/1]
+            liquids: ["dirty-water/0.05"]
         }
         craftTime: 150  # = 3 seconds
         unlocked: true
