@@ -6,10 +6,10 @@ explosiveness: 0
 temperature: 0.25
 coolant: false
 gas: false
-color: 84a94b
+color: ffcd66
 flammability: 0
-gasColor: d2dd76
-barColor: a3d15b
+gasColor: ffcd66
+barColor: ffcd66
 incinerable: false
-lightColor: d2dd76
+lightColor: ffffa3
 research: sulfur-chunk
