@@ -157,6 +157,67 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: silicon-recipe2
+        input: {
+            items: ["periodic-quartz/6", "periodic-coke/2"]
+            liquids: ["periodic-hot-air/0.15"]
+            power: 0.15
+        }
+        output: {
+            items: ["silicon/5"]
+            liquids: [periodic-dirty-water/0.01]
+        }
+        craftTime: 150  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: basic-epoxy-resin2
+        input: {
+            items: ["periodic-refined-resin/8", "periodic-coke/2"]
+            power: 0.15
+        }
+        output: {
+            items: ["periodic-basic-epoxy-resin/6", "periodic-small-ash/1"]
+            liquids: []
+        }
+        craftTime: 210  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: melting-basic-resin2
+        input: {
+            items: ["periodic-basic-epoxy-resin/2", "coke/1"]
+            power: 0.3
+        }
+        output: {
+            items: []
+            liquids: [molten-resin/0.25]
+        }
+        craftTime: 90  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: ferrosilicon2
+        input: {
+            items: ["iron-plate/4", "silicon/2"]
+            power: 0.15
+        }
+        output: {
+            items: ["ferrosilicon/5"]
+            liquids: []
+        }
+        craftTime: 110  # = 4 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: refined-cobalt2
         input: {
             items: ["cobalt-powder/3", "coke/1"]
