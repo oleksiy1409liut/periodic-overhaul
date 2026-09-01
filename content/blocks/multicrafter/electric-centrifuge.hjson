@@ -1,0 +1,126 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Electric Centrifuge"
+description: "Can do the processes of: separating, centrifuging, washing, for separating it needs distilled water."
+size: 3
+itemCapacity: 30
+liquidCapacity: 500
+health: 375
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: separate-zinc2
+        input: {
+            items: ["periodic-crushed-zinc-chunk/6"]
+            liquids: ["distilled-water/0.15"]
+            power: 0.1
+        }
+        output: {
+            items: ["periodic-zinc-powder/3", "residue/1"]
+            liquids: [periodic-dirty-water/0.1]
+        }
+        craftTime: 120  # = 1 seconds
+        unlocked: true
+    }
+    {
+        name: separate-copper2
+        input: {
+            items: ["periodic-crushed-copper-chunk/6"]
+            liquids: ["distilled-water/0.15"]
+            power: 0.15
+        }
+        output: {
+            items: ["periodic-copper-powder/4", "residue/1"]
+            liquids: [periodic-dirty-water/0.1]
+        }
+        craftTime: 90  # = 1.25 seconds
+        unlocked: true
+    }
+    {
+        name: separate-tin2
+        input: {
+            items: ["periodic-tin-chunk/8"]
+            liquids: ["distilled-water/0.2"]
+            power: 0.2
+        }
+        output: {
+            items: ["periodic-tin-powder/5", "residue/2"]
+            liquids: [periodic-dirty-water/0.15]
+        }
+        craftTime: 210  # = 4 seconds
+        unlocked: true
+    }
+    {
+        name: separate-molybdenite-chunk2
+        input: {
+            items: ["periodic-molybdenite-chunk/4"]
+            liquids: ["distilled-water/0.2"]
+            power: 0.15
+        }
+        output: {
+            items: ["periodic-purified-molybdenite/3", "periodic-quartz/1"]
+            liquids: [periodic-dirty-water/0.15]
+        }
+        craftTime: 120  # = 1.25 seconds
+        unlocked: true
+    }
+    {
+        name: refine-resin2
+        input: {
+            items: ["periodic-resin/6"]
+            liquids: ["distilled-water/0.3"]
+            power: 0.2
+        }
+        output: {
+            items: ["periodic-refined-resin/6"]
+            liquids: [periodic-dirty-water/0.2]
+        }
+        craftTime: 240  # = 5 seconds
+        unlocked: true
+    }
+    {
+        name: separate-aluminium-chunk2
+        input: {
+            items: ["periodic-crushed-aluminium-chunk/6"]
+            liquids: ["distilled-water/0.3"]
+            power: 0.15
+        }
+        output: {
+            items: ["periodic-aluminium-powder/5", "residue/1"]
+            liquids: ["periodic-dirty-water/0.25"]
+        }
+        craftTime: 150  # = 3 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: distilled-water
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 2.5
+    }
+  ]
+}
+
+requirements: ["steel-plate/30", "refined-nickel/15", "solder-coil/3", "basic-memory-circuit/1", "refined-aluminium/15", "bronze-plate/15"]
+category: "crafting"
