@@ -218,6 +218,36 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: dolomite-calcination2
+        input: {
+            items: ["dolomite-chunk/6"]
+            liquids: ["hot-air/0.15"]
+            power: 0.15
+        }
+        output: {
+            items: ["calcined-dolomite/4"]
+        }
+        craftTime: 150  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: refined-magnesium2
+        input: {
+            items: ["magnesium-chloride/8"]
+            liquids: ["hot-air/0.075"]
+            power: 0.1
+        }
+        output: {
+            items: ["refined-magnesium/6"]
+        }
+        craftTime: 150  # = 2.5 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: refined-cobalt2
         input: {
             items: ["cobalt-powder/3", "coke/1"]
