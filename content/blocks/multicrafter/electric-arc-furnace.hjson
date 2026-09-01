@@ -146,6 +146,7 @@ jsonRecipes: [
         input: {
             items: ["periodic-clay/4", "sand/2", "coke/1"]
             liquids: ["periodic-hot-air/0.15"]
+            power: 0.15
         }
         output: {
             items: ["periodic-ceramic/4"]
