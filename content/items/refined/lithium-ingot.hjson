@@ -1,0 +1,13 @@
+{
+type: material
+name: Lithium Ingot (Li)
+description: a big slab of lithium metal
+cost: 3.5
+color: fff1f9
+research: lithium-compound
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
