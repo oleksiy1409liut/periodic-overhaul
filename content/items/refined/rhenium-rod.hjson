@@ -1,0 +1,13 @@
+{
+type: material
+name: Rhenium Rod
+description: ok
+cost: 2.5
+color: eea666
+research: rhenium-residue
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
