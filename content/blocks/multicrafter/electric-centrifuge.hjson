@@ -82,6 +82,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: separate-lithium-salt1
+        input: {
+            items: ["lithium-salt/6"]
+            liquids: ["distilled-water/0.15"]
+            power: 0.2
+        }
+        output: {
+            items: ["lithium-compound/3", "residue/1"]
+            liquids: [periodic-dirty-water/0.1]
+        }
+        craftTime: 120  # = 4 seconds
+        unlocked: true
+    }
+    {
         name: refine-resin2
         input: {
             items: ["periodic-resin/6"]
