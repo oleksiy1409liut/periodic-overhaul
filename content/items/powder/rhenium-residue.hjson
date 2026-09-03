@@ -1,0 +1,13 @@
+{
+type: material
+name: Rhenium Residue
+description: ok
+cost: 0.0
+color: ce735e
+research: purified-molybdenite
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
