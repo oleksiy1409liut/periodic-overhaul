@@ -50,6 +50,17 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: chunk-lead
+        input: {
+            items: ["lead-chunk/3", "coal/2"]
+        }
+        output: {
+            items: ["lead/1", "small-ash/1"]
+        }
+        craftTime: 120  # = 1.5 second
+        unlocked: true
+    }
+    {
         name: powder-tin-ingot
         input: {
             items: ["periodic-tin-powder/3", "coal/1"]
