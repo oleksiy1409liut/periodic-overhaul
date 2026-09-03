@@ -86,7 +86,20 @@ jsonRecipes: [
         output: {
             items: ["nickel-powder/7", "copper-powder/1", "cobalt-residue/2"]
         }
-        craftTime: 100  # = 1.777 seconds
+        craftTime: 120  # = 1.777 seconds
+        unlocked: true
+    }
+    {
+        name: crush-lithium
+        input: {
+            items: ["lithium-chunk/6"]
+            liquids: []
+            power: 0.2
+        }
+        output: {
+            items: ["lithium-salt/4", "residue/1"]
+        }
+        craftTime: 120  # = 1.5 seconds
         unlocked: true
     }
     {
