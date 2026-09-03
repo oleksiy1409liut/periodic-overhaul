@@ -1,0 +1,4 @@
+type: OreBlock
+name: Lithium Ore
+itemDrop: lithium-chunk
+variants: 1
