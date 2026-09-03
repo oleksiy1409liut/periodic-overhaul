@@ -171,6 +171,21 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: lithium-ingot1
+        input: {
+            items: ["lithium-compound/2", "coke/1"]
+            liquids: ["periodic-hot-air/0.15"]
+            power: 0.2
+        }
+        output: {
+            items: ["lithium-ingot/1"]
+        }
+        craftTime: 120  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: silicon-recipe2
         input: {
             items: ["periodic-quartz/6", "periodic-coke/2"]
