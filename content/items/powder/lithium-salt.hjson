@@ -1,0 +1,13 @@
+{
+type: material
+name: Lithium Salt
+description: salty
+cost: 0.0
+color: 925e7d
+research: lithium-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
