@@ -1,0 +1,13 @@
+{
+type: material
+name: Lithium Compound (Li)
+description: a big pile of pink poop
+cost: 0.0
+color: e4b7d1
+research: lithium-salt
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
