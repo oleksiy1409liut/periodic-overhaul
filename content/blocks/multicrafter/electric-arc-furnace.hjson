@@ -147,7 +147,7 @@ jsonRecipes: [
             power: 0.15
         }
         output: {
-            items: ["periodic-molybdate/4", "residue/1"]
+            items: ["periodic-molybdate/4", "rhenium-residue/1"]
             liquids: [periodic-sulfur-dioxide/0.15]
         }
         craftTime: 150  # = 3 seconds
@@ -272,6 +272,21 @@ jsonRecipes: [
             items: ["refined-cobalt/2"]
         }
         craftTime: 150  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: rhenium-rod1
+        input: {
+            items: ["rhenium-residue/2", "coke/1"]
+            liquids: ["periodic-hot-air/0.15"]
+            power: 0.15
+        }
+        output: {
+            items: ["rhenium-rod/1"]
+        }
+        craftTime: 120  # = 3 seconds
 
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
