@@ -47,7 +47,7 @@ jsonRecipes: [
             power: 0.15
         }
         output: {
-            items: ["lead-powder/4", "lead-residue/2"]
+            items: ["lead-powder/4", "lead-residue/1", "silver-powder/1"]
             liquids: [periodic-dirty-water/0.1]
         }
         craftTime: 90  # = 1.25 seconds
