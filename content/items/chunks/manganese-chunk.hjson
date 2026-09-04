@@ -1,0 +1,13 @@
+{
+type: material
+name: Manganese Chunk (Mn)
+description: geody
+cost: 0.0
+color: 5b3d40
+research: nitrogen-dioxide
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
