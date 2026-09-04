@@ -96,6 +96,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: manganese-ingot1
+        input: {
+            items: ["manganese-oxide/2"]
+            liquids: ["nitric-oxide/0.15"]
+            power: 0.25
+        }
+        output: {
+            items: ["manganese-ingot/1"]
+            liquids: ["hot-air/0.1"]
+        }
+        craftTime: 90  # = 1.25 seconds
+        unlocked: true
+    }
+    {
         name: magnesium-chloride2
         input: {
             items: ["calcined-dolomite/3"]
