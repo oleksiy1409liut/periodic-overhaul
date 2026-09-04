@@ -82,6 +82,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: separate-manganese-crush
+        input: {
+            items: ["crushed-manganese-ore/3"]
+            liquids: ["distilled-water/0.1", "hydrogen/0.15"]
+            power: 0.15
+        }
+        output: {
+            items: ["manganese-oxide/2", "residue/1"]
+            liquids: [periodic-dirty-water/0.75]
+        }
+        craftTime: 120  # = 4 seconds
+        unlocked: true
+    }
+    {
         name: separate-lithium-salt1
         input: {
             items: ["lithium-salt/6"]
