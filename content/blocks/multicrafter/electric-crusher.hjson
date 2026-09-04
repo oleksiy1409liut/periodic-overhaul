@@ -90,6 +90,19 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: crush-manganese-chunk
+        input: {
+            items: ["manganese-chunk/4"]
+            liquids: []
+            power: 0.15
+        }
+        output: {
+            items: ["crushed-manganese-ore/3", "residue/1"]
+        }
+        craftTime: 120  # = 1.777 seconds
+        unlocked: true
+    }
+    {
         name: crush-lithium
         input: {
             items: ["lithium-chunk/6"]
