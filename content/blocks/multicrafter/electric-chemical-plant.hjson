@@ -166,6 +166,34 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: hydrogen-chloride
+        input: {
+            items: []
+            liquids: ["hydrogen/0.125", "chlorine/0.1"]
+            power: 0.3
+        }
+        output: {
+            items: []
+            liquids: ["hydrogen-chloride/0.3"]
+        }
+        craftTime: 90  # = 2 seconds
+        unlocked: true
+    }
+    {
+        name: hydrochloric-acid
+        input: {
+            items: []
+            liquids: ["hydrogen-chloride/0.15", "water/0.2"]
+            power: 0.2
+        }
+        output: {
+            items: []
+            liquids: ["hydrochloric-acid/0.4"]
+        }
+        craftTime: 120  # = 2 seconds
+        unlocked: true
+    }
+    {
         name: distilled-water
         input: {
             items: []
