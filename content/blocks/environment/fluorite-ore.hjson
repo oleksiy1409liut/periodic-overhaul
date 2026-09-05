@@ -1,0 +1,4 @@
+type: OreBlock
+name: Fluorite Ore
+itemDrop: fluorite-chunk
+variants: 1
