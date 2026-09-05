@@ -99,7 +99,7 @@ jsonRecipes: [
         name: separate-lithium-salt1
         input: {
             items: ["lithium-salt/6"]
-            liquids: ["distilled-water/0.15"]
+            liquids: ["distilled-water/0.1", "sulfuric-acid/0.15"]
             power: 0.2
         }
         output: {
