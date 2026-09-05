@@ -1,0 +1,13 @@
+{
+type: material
+name: Fluorite Chunk
+description: ok
+cost: 0.0
+color: dab560
+research: refined-nickel
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
