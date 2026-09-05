@@ -1,0 +1,13 @@
+{
+type: material
+name: Barite Chunk
+description: barite from asthosus yo
+cost: 0.0
+color: 9d7f7f
+research: refined-nickel
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
