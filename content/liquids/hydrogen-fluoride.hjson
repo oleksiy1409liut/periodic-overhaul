@@ -1,0 +1,15 @@
+name: Hydrogen Fluoride
+description: ok
+heatCapacity: 0.0
+viscosity: 0.0
+explosiveness: 0.0
+temperature: 0.25
+coolant: false
+gas: true
+color: ffe18f
+flammability: 0.2
+gasColor: d6dbe7
+barColor: d6dbe7
+incinerable: false
+lightColor: ffe18f
+research: fluorite-chunk
