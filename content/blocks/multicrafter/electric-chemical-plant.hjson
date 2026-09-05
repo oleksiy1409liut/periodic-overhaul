@@ -132,7 +132,7 @@ jsonRecipes: [
         }
         output: {
             items: ["calcium-sulfate/1"]
-            liquids: ["hydrogen-fluoride/1]
+            liquids: ["hydrogen-fluoride/1"]
         }
         craftTime: 120  # = 4 seconds
         unlocked: true
