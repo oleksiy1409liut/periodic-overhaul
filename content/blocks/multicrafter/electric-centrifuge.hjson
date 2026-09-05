@@ -28,12 +28,12 @@ jsonRecipes: [
     {
         name: separate-copper2
         input: {
-            items: ["periodic-crushed-copper-chunk/6"]
+            items: ["periodic-crushed-copper-chunk/7"]
             liquids: ["distilled-water/0.15"]
             power: 0.15
         }
         output: {
-            items: ["periodic-copper-powder/4", "copper-residue/2"]
+            items: ["periodic-copper-powder/4", "copper-residue/2", "silver-powder/1"]
             liquids: [periodic-dirty-water/0.1]
         }
         craftTime: 90  # = 1.25 seconds
