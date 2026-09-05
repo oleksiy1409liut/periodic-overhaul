@@ -96,6 +96,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: CaSO4-separation
+        input: {
+            items: ["calcium-sulfate/2"]
+            liquids: ["hydrochloric-acid/0.1"]
+            power: 0.15
+        }
+        output: {
+            items: ["calcium-shards/2"]
+            liquids: ["sulfur-dioxide/0.2"]
+        }
+        craftTime: 90  # = 4 seconds
+        unlocked: true
+    }
+    {
         name: separate-lithium-salt1
         input: {
             items: ["lithium-salt/6"]
