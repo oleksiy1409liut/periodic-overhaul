@@ -77,6 +77,19 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: crush-fluorite
+        input: {
+            items: ["fluorite-chunk/6"]
+            liquids: []
+            power: 0.2
+        }
+        output: {
+            items: ["crushed-fluorite-chunk/4", "residue/1"]
+        }
+        craftTime: 90  # = 1.777 seconds
+        unlocked: true
+    }
+    {
         name: crush-pentlandite2
         input: {
             items: ["pentlandite-chunk/9"]
