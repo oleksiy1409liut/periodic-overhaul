@@ -1,0 +1,15 @@
+name: Fluorine (F)
+description: yay
+heatCapacity: 0.0
+viscosity: 0.0
+explosiveness: 0.2
+temperature: -0.1
+coolant: false
+gas: true
+color: 84a94b
+flammability: 0.2
+gasColor: d2dd76
+barColor: a3d15b
+incinerable: false
+lightColor: a3d15b
+research: hydrogen-fluoride
