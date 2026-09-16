@@ -72,6 +72,21 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: diode1
+        input: {
+            items: ["silicon-carbide/1", "lead-chunk/1", "refined-chromium/1"]
+            liquids: []
+            power: 0.12
+        }
+        output: {
+            items: ["periodic-aluminium-silicon-transistor/2"]
+        }
+        craftTime: 90  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: aluminium-capacitor2
         input: {
             items: ["periodic-refined-aluminium/1", "periodic-aluminium-oxide/1"]
