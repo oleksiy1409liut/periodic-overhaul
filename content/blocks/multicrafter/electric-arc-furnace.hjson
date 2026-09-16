@@ -202,6 +202,22 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: silicon-carbide1
+        input: {
+            items: ["periodic-quartz/4", "periodic-coke/1", "sand/1"]
+            liquids: ["periodic-hot-air/0.15"]
+            power: 0.15
+        }
+        output: {
+            items: ["silicon-carbide/4"]
+            liquids: []
+        }
+        craftTime: 120  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: basic-epoxy-resin2
         input: {
             items: ["periodic-refined-resin/8", "periodic-coke/2"]
