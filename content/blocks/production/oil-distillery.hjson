@@ -1,0 +1,36 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "Oil DIstillery (1)",
+    description: "Distills crude oil into usable materials.",
+    rotate: true,
+    rotateDraw: true,
+    liquidCapacity: 600
+    liquidOutputDirections: [1,3,4],
+
+      "consumes": {
+      power: 0.5
+      liquids: [
+        oil/0.8
+      ]
+      items: [
+        rhenium-rod/1
+      },
+      craftTime: 120
+
+    outputLiquids: [petroleum/0.2,refinery-gas/0.2,heavy-oil/0.35],
+    outputItem: bitumen/1
+
+    size: 5,
+    health: 650,
+
+    requirements: [
+        "steel-plate/85",
+        "bronze-plate/25",
+        "refined-manganese/10",
+        "solder-coil/5",
+        "formed-lead-acid-battery/1",
+        "copper-coil/5",
+        "manganese-ingot/20",
+    ],
+}
