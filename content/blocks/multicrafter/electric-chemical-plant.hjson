@@ -271,7 +271,7 @@ jsonRecipes: [
             power: 0.3
         }
         output: {
-            items: ["plastic-bat/6"]
+            items: ["plastic-bar/6"]
             liquids: []
         }
         craftTime: 100  # = 2 seconds
