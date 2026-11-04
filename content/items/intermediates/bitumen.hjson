@@ -1,0 +1,13 @@
+{
+type: material
+name: Bitumen
+description: Oil distillation byproduct, used for recycling or weak power generation.
+cost: 1.0
+color: 8175a5
+research: oil
+explosiveness: 0
+flammability: 0.2
+radioactivity: 0
+charge: 0
+hardness: 0
+}
