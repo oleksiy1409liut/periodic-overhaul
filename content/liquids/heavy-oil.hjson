@@ -1,0 +1,15 @@
+name: Hevay Oil
+description: Can be used as lubricant or weak power source.
+heatCapacity: 0.05
+explosiveness: 0
+viscosity: 0.15
+temperature: 0.25
+coolant: false
+gas: false
+color: 623c35
+flammability: 0.2
+gasColor: 804d44
+barColor: 895841
+incinerable: false
+lightColor: 895841
+research: oil
