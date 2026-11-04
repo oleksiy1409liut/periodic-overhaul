@@ -28,7 +28,7 @@
     requirements: [
         "steel-plate/85",
         "bronze-plate/25",
-        "refined-manganese/10",
+        "rhenium-rod/5",
         "solder-coil/5",
         "formed-lead-acid-battery/1",
         "copper-coil/5",
