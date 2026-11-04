@@ -1,0 +1,15 @@
+name: Refinery Gas
+description: Product of oil distillation, can be used for power or certain material.
+heatCapacity: 0.1
+viscosity: 0.0
+explosiveness: 0.0
+temperature: 0.25
+coolant: false
+gas: true
+color: 897979
+flammability: 0.2
+gasColor: b6a9a9
+barColor: 897979
+incinerable: false
+lightColor: b6a9a9
+research: oil
