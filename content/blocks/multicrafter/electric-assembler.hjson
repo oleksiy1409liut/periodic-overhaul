@@ -42,6 +42,21 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: empty-circuit-board3
+        input: {
+            items: ["copper-coil/1","plastic-bar/1"]
+            liquids: ["periodic-molten-resin/0.05"]
+            power: 0.15
+        }
+        output: {
+            items: ["periodic-empty-circuit-board/2"]
+        }
+        craftTime: 120  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: resistor2
         input: {
             items: ["periodic-steel-plate/1", "periodic-ceramic/1", "copper/1"]
