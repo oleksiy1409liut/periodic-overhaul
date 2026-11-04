@@ -264,6 +264,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: plastic-bar
+        input: {
+            items: ["coal/2", "rhenium-rod/1"]
+            liquids: [petroleum/0.15]
+            power: 0.3
+        }
+        output: {
+            items: ["plastic-bat/6"]
+            liquids: []
+        }
+        craftTime: 100  # = 2 seconds
+        unlocked: true
+    }
+    {
         name: sulfuric-acid
         input: {
             items: ["sulfur-chunk/1"]
