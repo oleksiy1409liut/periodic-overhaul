@@ -1,0 +1,13 @@
+{
+type: material
+name: Plastic Bar
+description: mmm carbon in funny ways
+cost: 0.0
+color: ffa5ea
+research: petroleum
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
