@@ -79,7 +79,7 @@ jsonRecipes: [
             power: 0.12
         }
         output: {
-            items: ["periodic-aluminium-silicon-transistor/2"]
+            items: ["diode/1"]
         }
         craftTime: 90  # = 2 seconds
 
