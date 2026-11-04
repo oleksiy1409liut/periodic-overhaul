@@ -1,0 +1,13 @@
+{
+type: material
+name: Electric Engine
+description: Used in mechanisms and certain machines
+cost: 2.5
+color: 8175a5
+research: electric-assembler
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
