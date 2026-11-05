@@ -221,6 +221,21 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: advanced-circuit-board
+        input: {
+            items: ["empty-circuit-board/1", "copper-coil/1", "plastic-bar/1", "gold-ingot/1"]
+            liquids: ["solder/0.25"]
+            power: 0.25
+        }
+        output: {
+            items: ["advanced-circuit-board/1"]
+        }
+        craftTime: 240  # = 3.5 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
