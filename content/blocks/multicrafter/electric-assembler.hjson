@@ -269,7 +269,7 @@ jsonRecipes: [
         {
         name: printed-circuit-board1
         input: {
-            items: ["advanced-circuit-board/1", "integrated-circuit/2", "aluminium-silicon-transistor/3", "vacuum-tube/1", "aluminium-capacitor/4", "diode/2", "resistor/2"]
+            items: ["advanced-circuit-board/1", "basic-memory-circuit/1", "integrated-circuit/2", "aluminium-silicon-transistor/3", "vacuum-tube/1", "aluminium-capacitor/4", "diode/2", "resistor/2"]
             liquids: ["solder/0.25"]
             power: 0.3
         }
