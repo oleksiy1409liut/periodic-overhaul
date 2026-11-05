@@ -1,0 +1,13 @@
+{
+type: material
+name: Gold Ingot (Au)
+description: Not that strong of an element, used in electronics.
+cost: 3.5
+color: ffe18f
+research: gold-powder
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
