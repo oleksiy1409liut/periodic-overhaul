@@ -264,7 +264,7 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: basic-epoxy-resin2
+        name: basic-epoxy-resin3
         input: {
             items: ["sodium-hydroxide/1"]
             liquids: ["petroleum/0.15"]
