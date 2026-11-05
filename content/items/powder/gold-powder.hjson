@@ -1,0 +1,13 @@
+{
+type: material
+name: Gold Powder (Au)
+description: ok
+cost: 0.0
+color: 9c88c3
+research: copper-residue
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
