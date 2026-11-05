@@ -3,7 +3,7 @@ type: material
 name: Gold Powder (Au)
 description: ok
 cost: 0.0
-color: 9c88c3
+color: ffe18f
 research: copper-residue
 explosiveness: 0
 flammability: 0
