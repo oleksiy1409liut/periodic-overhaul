@@ -264,6 +264,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: basic-epoxy-resin2
+        input: {
+            items: ["sodium-hydroxide/1"]
+            liquids: ["petroleum/0.15"]
+            power: 0.2
+        }
+        output: {
+            items: ["basic-epoxy-resin/4"]
+            liquids: []
+        }
+        craftTime: 120  # = 2 seconds
+        unlocked: true
+    }
+    {
         name: plastic-bar
         input: {
             items: ["coal/2", "rhenium-rod/1"]
