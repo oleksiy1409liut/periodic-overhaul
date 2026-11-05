@@ -1,0 +1,31 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Electric Engraver"
+description: "Engraves things onto silicon wafers to make them usable."
+size: 4
+itemCapacity: 40
+liquidCapacity: 300
+health: 650
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: placeholder
+        input: {
+            items: ["wood/400"]
+            liquids: ["water/5"]
+            power: 0.3
+        }
+        output: {
+            items: ["wood-pulp/6"]
+        }
+        craftTime: 150  # = 2.5 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["steel-plate/45", "refined-aluminium/25", "solder-coil/5", "copper-coil/5", "basic-memory-circuit/1", "metaglass/15", "refined-chromium/15", "formed-lead-acid-battery/2"]
+category: "crafting"
