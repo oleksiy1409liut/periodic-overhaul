@@ -206,6 +206,21 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+    {
+        name: electric-engine
+        input: {
+            items: ["steel-plate/4", "solder-coil/1", "copper-coil/1", "aluminium-capacitor/1", "ferrosilicon/2"]
+            liquids: ["heavy-oil/0.1"]
+            power: 0.25
+        }
+        output: {
+            items: ["electric-engine/1"]
+        }
+        craftTime: 240  # = 3.5 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
