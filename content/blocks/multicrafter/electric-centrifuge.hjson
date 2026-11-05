@@ -165,6 +165,20 @@ jsonRecipes: [
         craftTime: 150  # = 3 seconds
         unlocked: true
     }
+    {
+        name: separate-copper-residue
+        input: {
+            items: ["copper-residue/4"]
+            liquids: ["distilled-water/0.1"]
+            power: 0.15
+        }
+        output: {
+            items: ["residue/1", "gold-powder/1", "silver-powder/1"]
+            liquids: ["dirty-water/0.05"]
+        }
+        craftTime: 120  # = 3 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
