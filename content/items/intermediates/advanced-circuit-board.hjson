@@ -1,0 +1,13 @@
+{
+type: material
+name: Advanced Circuit Board
+description: mmm technology 2
+cost: 3.0
+color: 6aa95e
+research: circuit-board
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
