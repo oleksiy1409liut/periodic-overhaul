@@ -381,6 +381,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: gold-ingot
+        input: {
+            items: ["gold-powder/2"]
+            liquids: ["hot-air/0.1"]
+            power: 0.2
+        }
+        output: {
+            items: ["gold-ingot/1"]
+            liquids: []
+        }
+        craftTime: 120  # = 2.5 second
+        unlocked: true
+    }
+    {
         name: nitric-oxide
         input: {
             items: []
