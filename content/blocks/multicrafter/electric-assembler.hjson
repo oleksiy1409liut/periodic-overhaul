@@ -74,7 +74,7 @@ jsonRecipes: [
     {
         name: aluminium-silicon-transistor2
         input: {
-            items: ["silicon/2", "periodic-refined-aluminium/1"]
+            items: ["silicon/3", "periodic-refined-aluminium/2"]
             liquids: []
             power: 0.12
         }
@@ -82,6 +82,36 @@ jsonRecipes: [
             items: ["periodic-aluminium-silicon-transistor/2"]
         }
         craftTime: 90  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: aluminium-silicon-transistor3
+        input: {
+            items: ["silicon/1", "plastic-bar/1", "copper-coil/1"]
+            liquids: []
+            power: 0.12
+        }
+        output: {
+            items: ["periodic-aluminium-silicon-transistor/3"]
+        }
+        craftTime: 90  # = 2 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
+        name: integrated-circuit1
+        input: {
+            items: ["silicon/3", "plastic-bar/2", "copper-coil/1", "gold-ingot/1"]
+            liquids: []
+            power: 0.2
+        }
+        output: {
+            items: ["integrated-circuit/1"]
+        }
+        craftTime: 150  # = 2 seconds
 
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
@@ -232,6 +262,21 @@ jsonRecipes: [
             items: ["advanced-circuit-board/1"]
         }
         craftTime: 240  # = 3.5 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+        {
+        name: printed-circuit-board1
+        input: {
+            items: ["advanced-circuit-board/1", "integrated-circuit/2", "aluminium-silicon-transistor/3", "vacuum-tube/1", "aluminium-capacitor/4", "diode/2", "resistor/2"]
+            liquids: ["solder/0.25"]
+            power: 0.3
+        }
+        output: {
+            items: ["printed-circuit-board/1"]
+        }
+        craftTime: 300  # = 3.5 seconds
 
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
