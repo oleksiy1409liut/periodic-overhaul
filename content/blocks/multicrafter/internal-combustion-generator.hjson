@@ -5,7 +5,6 @@ type: MultiCrafter
 name: "Internal Combustion Generator (ICE)"
 description: "Combusts carbon fuels to generate mechanical power which is converted into electricity, also the next step in energy making after steam, not to be confused with the american deportation department."
 size: 3
-itemCapacity: 20
 liquidCapacity: 600
 health: 560
 
@@ -14,11 +13,9 @@ jsonRecipes: [
     {
         name: burn-petrol
         input: {
-            items: []
             liquids: ["petroleum/0.4", "hot-air/0.2"]
         }
         output: {
-            items: []
             power: 2
         }
         craftTime: 120  # = 1 seconds
@@ -27,11 +24,9 @@ jsonRecipes: [
     {
         name: burn-refgas
         input: {
-            items: []
             liquids: ["refinery-gas/0.4", "hot-air/0.2"]
         }
         output: {
-            items: []
             power: 1.4
         }
         craftTime: 120  # = 1 seconds
@@ -40,11 +35,9 @@ jsonRecipes: [
     {
         name: burn-gasoline
         input: {
-            items: []
             liquids: ["gasoline/0.25", "hot-air/0.1"]
         }
         output: {
-            items: []
             power: 2.2
         }
         craftTime: 120  # = 1 seconds
@@ -54,4 +47,4 @@ jsonRecipes: [
 
 # Back to the default game variables
 requirements: ["copper-coil/5", "refined-nickel/10", "steel-plate/40", "electric-engine/4", "formed-lead-acid-battery/1"]
-category: "crafting"
+category: "energy"
