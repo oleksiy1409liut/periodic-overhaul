@@ -47,4 +47,4 @@ jsonRecipes: [
 
 # Back to the default game variables
 requirements: ["copper-coil/5", "refined-nickel/10", "steel-plate/40", "electric-engine/4", "formed-lead-acid-battery/1"]
-category: "energy"
+category: "power"
