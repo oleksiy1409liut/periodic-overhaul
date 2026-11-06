@@ -252,6 +252,21 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: circuit-parts1
+        input: {
+            items: ["integrated-circuit/1", "vacuum-tube/1", "diode/1", "aluminium-silicon-transistor/1", "aluminium-capacitor/1", "resistor/1"]
+            liquids: []
+            power: 0.15
+        }
+        output: {
+            items: ["circuit-parts/1"]
+        }
+        craftTime: 60  # = 3.5 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: advanced-circuit-board
         input: {
             items: ["empty-circuit-board/1", "copper-coil/1", "plastic-bar/1", "gold-ingot/1"]
@@ -269,7 +284,7 @@ jsonRecipes: [
         {
         name: printed-circuit-board1
         input: {
-            items: ["advanced-circuit-board/1", "basic-memory-circuit/1", "integrated-circuit/2", "aluminium-silicon-transistor/3", "vacuum-tube/1", "aluminium-capacitor/4", "diode/2", "resistor/2"]
+            items: ["advanced-circuit-board/1", "basic-memory-circuit/1", "circuit-parts/2"]
             liquids: ["solder/0.25"]
             power: 0.3
         }
