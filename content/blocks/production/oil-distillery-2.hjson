@@ -1,0 +1,35 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "Thermal Cracker (2)",
+    description: "Distills heavy oil into more usable materials.",
+    rotate: true,
+    rotateDraw: true,
+    liquidCapacity: 500
+    liquidOutputDirections: [2,3,4],
+
+      "consumes": {
+      power: 0.35
+      liquids: [
+        heavy-oil/0.7
+        hot-air/0.2
+      ]
+      }
+      craftTime: 180
+
+    outputLiquids: [gasoline/0.15,refinery-gas/0.2,petroleum/0.25],
+    outputItem: bitumen/2
+
+    size: 3,
+    health: 500,
+
+    requirements: [
+        "steel-plate/55",
+        "bronze-plate/25",
+        "electric-engine/2",
+        "solder-coil/4",
+        "formed-lead-acid-battery/1",
+        "copper-coil/4",
+        "manganese-ingot/15",
+    ],
+}
