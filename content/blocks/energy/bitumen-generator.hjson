@@ -1,0 +1,54 @@
+name: Bitumen Generator
+description: Specialized energy generator that operates on bitumen and water, requires additional coal to heat it up, produces less energy than a steam turbine but its enough.
+type: ConsumeGenerator
+health: 250
+size: 3
+hasPower: true
+hasLiquids: true
+liquidCapacity: 600
+powerProduction: 1.2
+itemDuration: 150
+outputLiquid: water/0.02
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: steam
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 6
+    }
+]
+}
+
+consumes: {
+liquids: [
+  water/0.6
+]
+items: [
+  coal/1
+  bitumen/2
+]
+}
+category: power
+research: oil-distillery
+requirements: [
+steel-plate/55
+manganese-ingot/15
+copper-coil/5
+iron-plate/40
+steel-magnet/1
+formed-lead-acid-battery/1
+]
