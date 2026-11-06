@@ -1,0 +1,15 @@
+name: Gasoline
+description: A fuel product of heavy oil cracking, used for energy and running certain things.
+heatCapacity: 0.0
+explosiveness: 0
+viscosity: 0.05
+temperature: 0.2
+coolant: false
+gas: false
+color: f8c266
+flammability: 0.3
+gasColor: ffe18f
+barColor: f8c266
+incinerable: false
+lightColor: ffe18f
+research: heavy-oil
