@@ -28,7 +28,7 @@ jsonRecipes: [
         name: burn-refgas
         input: {
             items: []
-            liquids: ["petroleum/0.4", "hot-air/0.2"]
+            liquids: ["refinery-gas/0.4", "hot-air/0.2"]
         }
         output: {
             items: []
