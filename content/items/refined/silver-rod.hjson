@@ -1,0 +1,13 @@
+{
+type: material
+name: Silver Rod (Ag)
+description: mmmm rich
+cost: 3.5
+color: dcc6c6
+research: silver-powder
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
