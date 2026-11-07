@@ -1,0 +1,46 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "Electric Air Pump",
+    description: "Pulls in air using electricity and heats it up to store and output it into buildings or pipes. (better than using chem plants for hot air, am i right?)",
+    rotate: true,
+    rotateDraw: true,
+    liquidCapacity: 400
+    liquidOutputDirections: [1,2,3,4],
+
+      "consumes": {
+      power: 0.25
+      },
+      craftTime: 80
+
+    outputLiquids: [hot-air/0.2,],
+
+    size: 2,
+    health: 350,
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -spinner
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 5.9
+    }
+  ]
+}
+
+    requirements: [
+        "steel-plate/15",
+        "basic-epoxy-resin/5",
+        "copper-coil/5",
+        "resistor/2"
+    ],
+}
