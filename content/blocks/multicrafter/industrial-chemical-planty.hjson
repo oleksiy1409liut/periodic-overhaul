@@ -1,0 +1,58 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Industrial Chemical Plant (ICP)"
+description: "Main part of the ICP multiblock that can process up to 4 different processes in one recipe, requires huge amount of power and hot air with ozone (dont ask why)."
+size: 4
+itemCapacity: 40
+liquidCapacity: 900
+health: 950
+rotate: true
+rotateDraw: true
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: high-purity-silicon
+        input: {
+            items: ["silicon-carbide/4"]
+            liquids: ["hot-air/0.2", "ozone/0.3", "chlorine/0.1", "hydrogen/0.25"]
+            power: 1.5
+        }
+        output: {
+            items: ["high-purity-silicon/4"]
+            liquids: ["air-gas/0.1"]
+        }
+        craftTime: 180  # = 3 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: hydrogen
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 9
+    }
+  ]
+}
+
+requirements: ["steel-plate/90", "copper-coil/10", "lead/20", "ferrosilicon/40", "basic-memory-circuit/1", "solder-coil/6", "rhenium-rod/10"]
+category: "crafting"
