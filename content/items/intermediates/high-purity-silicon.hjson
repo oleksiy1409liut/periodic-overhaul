@@ -1,0 +1,13 @@
+{
+type: material
+name: High-Purity Silicon
+description: just like pure metha-
+cost: 1.0
+color: 8175a5
+research: silicon-carbide
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
