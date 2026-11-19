@@ -1,0 +1,46 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "Ozone Pump",
+    description: "Produces ozone from separating water and dumping oxygen back out, worse than an electrolysis plant but smaller and cheaper (please use it with the ICP and ICP only i want to make a multiblock).",
+    rotate: true,
+    rotateDraw: true,
+    liquidCapacity: 600
+    liquidOutputDirections: [1,2,3,4],
+
+      "consumes": {
+      power: 0.3
+      },
+      craftTime: 80
+
+    outputLiquids: [ozone/0.2,],
+
+    size: 2,
+    health: 450,
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -spinner
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 5.9
+    }
+  ]
+}
+
+    requirements: [
+        "steel-plate/25",
+        "basic-epoxy-resin/10",
+        "copper-coil/5",
+        "resistor/2"
+    ],
+}
