@@ -17,7 +17,7 @@ jsonRecipes: [
         name: high-purity-silicon
         input: {
             items: ["silicon-carbide/4"]
-            liquids: ["hot-air/0.2", "ozone/0.3", "chlorine/0.1", "hydrogen/0.25"]
+            liquids: ["hot-air/0.2", "ozone/0.2", "chlorine/0.1", "hydrogen/0.25"]
             power: 1.5
         }
         output: {
