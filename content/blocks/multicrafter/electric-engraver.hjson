@@ -12,16 +12,16 @@ health: 650
 # The library specific variables
 jsonRecipes: [
     {
-        name: placeholder
+        name: silicon-wafer1
         input: {
-            items: ["wood/400"]
-            liquids: ["water/5"]
+            items: ["high-purity-silicon/2"]
+            liquids: ["distilled-water/0.25"]
             power: 0.3
         }
         output: {
-            items: ["wood-pulp/6"]
+            items: ["silicon-wafer/4"]
         }
-        craftTime: 150  # = 2.5 seconds
+        craftTime: 120  # = 2.5 seconds
         unlocked: true
     }
 ]
