@@ -1,0 +1,13 @@
+{
+type: material
+name: Silicon Wafer
+description: mmm metal waffles
+cost: 1.0
+color: 8175a5
+research: high-purity-silicon
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
