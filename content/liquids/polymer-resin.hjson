@@ -1,0 +1,15 @@
+name: Polymer Resin
+description: Better than the basic insulating resin, can be used in recipes with it but theyre cheaper, used in photoresis production.
+heatCapacity: 0.05
+explosiveness: 0
+viscosity: 0.2
+temperature: 0.3
+coolant: false
+gas: false
+color: 000000
+flammability: 0
+gasColor: 000000
+barColor: 313131
+incinerable: false
+lightColor: 1d1d23
+research: petroleum
