@@ -27,6 +27,20 @@ jsonRecipes: [
         craftTime: 180  # = 3 seconds
         unlocked: true
     }
+    {
+        name: polymer-resin1
+        input: {
+            items: ["basic-epoxy-resin/1"]
+            liquids: ["hot-air/0.2", "ozone/0.2", "sulfuric-acid/0.25", "molten-resin/0.125"]
+            power: 1
+        }
+        output: {
+            items: []
+            liquids: ["polymer-resin/0.5"]
+        }
+        craftTime: 120  # = 3 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
