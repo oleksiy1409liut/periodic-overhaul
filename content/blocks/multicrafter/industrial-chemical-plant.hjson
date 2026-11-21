@@ -55,6 +55,34 @@ jsonRecipes: [
         craftTime: 180  # = 3 seconds
         unlocked: true
     }
+    {
+        name: centrifuge-dirty-water
+        input: {
+            items: ["phosphorus-powder/1"]
+            liquids: ["hot-air/0.2", "ozone/0.2", "dirty-water/5"]
+            power: 0.5
+        }
+        output: {
+            items: ["residue/2", "cobalt-residue/1", "rhenium-residue/1", "aluminium-powder/1", "cadmium-powder/1", "tin-powder/1"]
+            liquids: ["water/0.4"]
+        }
+        craftTime: 180  # = 3 seconds
+        unlocked: true
+    }
+    {
+        name: centrifuge-residue
+        input: {
+            items: ["purified-cellulose/2", "residue/60"]
+            liquids: ["hot-air/0.2", "ozone/0.2", "distilled-water/0.3"]
+            power: 0.6
+        }
+        output: {
+            items: ["magnesium-chloride/2", "cobalt-residue/2", "rhenium-residue/1", "zinc-residue/3", "cadmium-powder/2", "tin-powder/2", "calcium-shards/3", "silver-powder/1", "copper/residue/4"]
+            liquids: ["dirty-water/0.2"]
+        }
+        craftTime: 240  # = 3 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
