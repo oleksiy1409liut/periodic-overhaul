@@ -1,0 +1,13 @@
+{
+type: material
+name: Phosphorus Powder (P)
+description: why dont they use it as red dye
+cost: 2.5
+color: cd2525
+research: electric-crusher
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
