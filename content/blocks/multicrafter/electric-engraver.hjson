@@ -27,7 +27,7 @@ jsonRecipes: [
     {
         name: N-P-wafers1
         input: {
-            items: ["silicon-wafer/2", "red-phosphorus/2"]
+            items: ["silicon-wafer/2", "phosphorus-powder/2"]
             liquids: ["boron/0.3"]
             power: 0.45
         }
