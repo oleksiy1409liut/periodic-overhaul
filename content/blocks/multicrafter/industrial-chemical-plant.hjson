@@ -77,7 +77,7 @@ jsonRecipes: [
             power: 0.6
         }
         output: {
-            items: ["magnesium-chloride/2", "cobalt-residue/2", "rhenium-residue/1", "zinc-residue/3", "cadmium-powder/2", "tin-powder/2", "calcium-shards/3", "silver-powder/1", "copper/residue/4"]
+            items: ["magnesium-chloride/2", "cobalt-residue/2", "rhenium-residue/1", "zinc-residue/3", "cadmium-powder/2", "tin-powder/2", "calcium-shards/3", "silver-powder/1", "copper-residue/4"]
             liquids: ["dirty-water/0.2"]
         }
         craftTime: 240  # = 3 seconds
