@@ -422,6 +422,20 @@ jsonRecipes: [
         craftTime: 90  # = 1.5 second
         unlocked: true
     }
+    {
+        name: red-phosphorus
+        input: {
+            items: ["coke/1"]
+            liquids: ["hot-air/0.4", "phosphate-mixture/0.4"]
+            power: 0.35
+        }
+        output: {
+            items: ["red-phosphorus/3"]
+            liquids: []
+        }
+        craftTime: 120  # = 1.5 second
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
