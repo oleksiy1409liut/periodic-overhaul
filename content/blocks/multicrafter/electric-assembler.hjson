@@ -192,6 +192,21 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: vacuum-tube3
+        input: {
+            items: ["periodic-copper-coil/2", "metaglass/2", "high-purity-silicon/1", "refined-aluminium/2"]
+            liquids: ["polymer-resin/0.1"]
+            power: 0.2
+        }
+        output: {
+            items: ["periodic-vacuum-tube/3"]
+        }
+        craftTime: 80  # = 3 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
+    {
         name: basic-parts2
         input: {
             items: ["iron-plate/2", "zinc-ingot/1"]
