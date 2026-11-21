@@ -1,5 +1,5 @@
-name: Petroleum
-description: Can be used for plastics and fuel.
+name: Boron (B)
+description: liquid
 heatCapacity: 0.05
 explosiveness: 0
 viscosity: 0.50
