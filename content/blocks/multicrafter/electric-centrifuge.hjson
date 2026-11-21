@@ -152,6 +152,20 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: separate-borate-chunk
+        input: {
+            items: ["borate-chunk/6"]
+            liquids: ["distilled-water/0.2"]
+            power: 0.25
+        }
+        output: {
+            items: ["magnesium-chloride/2", "residue/1"]
+            liquids: ["boron/0.6"]
+        }
+        craftTime: 120  # = 3 seconds
+        unlocked: true
+    }
+    {
         name: separate-zinc-residue
         input: {
             items: ["zinc-residue/6"]
