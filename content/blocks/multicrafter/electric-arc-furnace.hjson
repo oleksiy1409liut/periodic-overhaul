@@ -423,14 +423,14 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: red-phosphorus
+        name: phosphorus-powder
         input: {
             items: ["coke/1"]
             liquids: ["hot-air/0.4", "phosphate-mixture/0.4"]
             power: 0.35
         }
         output: {
-            items: ["red-phosphorus/3"]
+            items: ["phosphorus-powder/3"]
             liquids: []
         }
         craftTime: 120  # = 1.5 second
