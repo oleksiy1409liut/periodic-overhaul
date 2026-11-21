@@ -1,0 +1,13 @@
+{
+type: material
+name: N-P Wafers
+description: mmm flavored metal waffles
+cost: 1.0
+color: 8175a5
+research: silicon-wafer
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
