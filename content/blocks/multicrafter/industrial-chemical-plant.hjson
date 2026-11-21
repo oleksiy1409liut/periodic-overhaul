@@ -41,6 +41,20 @@ jsonRecipes: [
         craftTime: 120  # = 3 seconds
         unlocked: true
     }
+    {
+        name: phosphate-mixture1
+        input: {
+            items: ["phosphate-chunk/4"]
+            liquids: ["hot-air/0.2", "ozone/0.2", "sulfuric-acid/0.1", "distilled-water/0.2"]
+            power: 0.8
+        }
+        output: {
+            items: []
+            liquids: ["phosphate-mixture/0.8"]
+        }
+        craftTime: 180  # = 3 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
