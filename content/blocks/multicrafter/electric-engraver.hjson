@@ -39,6 +39,20 @@ jsonRecipes: [
         craftTime: 60  # = 2.5 seconds
         unlocked: true
     }
+        {
+        name: test2
+        input: {
+            items: ["silicon-wafer/200", "phosphorus-powder/200"]
+            liquids: ["boron/3"]
+            power: 0.45
+        }
+        output: {
+            items: ["N-P-wafers/2"]
+            liquids: ["water/0.1", "cryofluid/0.1"]
+        }
+        craftTime: 60  # = 2.5 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
