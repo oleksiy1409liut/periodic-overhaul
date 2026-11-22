@@ -4,7 +4,7 @@ type: MultiCrafter
 # You can define any block variable below, as long as it is supported by the game.
 name: "Electric Engraver"
 description: "Engraves things onto silicon wafers to make them usable."
-size: 4
+size: 3
 itemCapacity: 40
 liquidCapacity: 300
 health: 650
