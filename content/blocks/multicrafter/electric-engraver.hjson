@@ -8,6 +8,7 @@ size: 4
 itemCapacity: 40
 liquidCapacity: 300
 health: 650
+liquidOutputDirections: [1,2,3],
 
 # The library specific variables
 jsonRecipes: [
@@ -33,6 +34,7 @@ jsonRecipes: [
         }
         output: {
             items: ["N-P-wafers/2"]
+            liquids: ["boron/0.3", "water/0.1", "cryofluid/0.1"]
         }
         craftTime: 60  # = 2.5 seconds
         unlocked: true
