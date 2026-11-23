@@ -1,0 +1,35 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Industrial Supplier"
+description: "Can supply different multiblocks with properties like temperature, pressure, accelerate gears to make multiblocks work."
+size: 2
+itemCapacity: 40
+liquidCapacity: 300
+health: 300
+liquidOutputDirections: [1,]
+rotate: true
+rotateDraw: true
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: steel-forge-supply
+        input: {
+            items: []
+            liquids: []
+            power: 0.5
+        }
+        output: {
+            items: []
+            liquids: ["steel-forge-supply/1"]
+        }
+        craftTime: 60  # = 2.5 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["steel-plate/25", "refined-aluminium/5", "solder-coil/2", "copper-coil/5", "basic-memory-circuit/1", "electric-engine/4"]
+category: "crafting"
