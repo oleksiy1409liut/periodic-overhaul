@@ -1,0 +1,38 @@
+{
+    type: "GenericCrafter",
+    category: "production",
+    name: "Steel Forge",
+    description: "Bulk smelts iron and coke into steel plates, requires hot air and steel forge supply.",
+    liquidCapacity: 600
+    itemCapacity: 64
+
+      "consumes": {
+      liquids: [
+        hot-air/0.4
+        steel-forge-supply/1
+        ]
+      items: [
+        coke/3
+        iron-plate/16
+        ]
+      power: 1.25
+      },
+      craftTime: 300
+
+    outputItems: [
+      small-ash/2
+      steel-plate/12
+    ]
+
+    size: 6,
+    health: 850,
+        
+    requirements: [
+        "molybdenum-plate/30",
+        "steel-plate/95",
+        "formed-lead-acid-battery/2",
+        "copper-coil/10"
+        "solder-coil/15"
+        
+    ],
+}
