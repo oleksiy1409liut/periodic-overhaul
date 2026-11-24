@@ -1,6 +1,6 @@
 {
     type: "GenericCrafter",
-    category: "production",
+    category: "crafting",
     name: "Steel Forge",
     description: "Bulk smelts iron and coke into steel plates, requires hot air and steel forge supply.",
     liquidCapacity: 600
