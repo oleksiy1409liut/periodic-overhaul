@@ -1,0 +1,13 @@
+{
+type: material
+name: Data Card
+description: Blank card that can be filled with data for further use.
+cost: 2.5
+color: 8175a5
+research: electric-assembler
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
