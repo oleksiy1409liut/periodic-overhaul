@@ -1,0 +1,31 @@
+# Mandatory, defines the block as a multicrafter
+type: MultiCrafter
+
+# You can define any block variable below, as long as it is supported by the game.
+name: "Data Encoder"
+description: "Encodes code and data onto cards to make them more usable."
+size: 3
+itemCapacity: 30
+liquidCapacity: 300
+health: 860
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: computer-data1
+        input: {
+            items: ["data-card/10"]
+            liquids: []
+            power: 0.5
+        }
+        output: {
+            items: ["computer-data/9", "residue/1"]
+        }
+        craftTime: 120  # = 2.5 seconds
+        unlocked: true
+    }
+]
+
+# Back to the default game variables
+requirements: ["steel-plate/65", "refined-aluminium/35", "plastic-bar/20", "copper-coil/15", "printed-circuit-board/1", "metaglass/35", "lithium-ingot/15", "formed-lead-acid-battery/1"]
+category: "crafting"
