@@ -311,6 +311,21 @@ jsonRecipes: [
         # This recipe will be unlocked and the player unlocks this research
         unlocked: true
     }
+         {
+        name: data-card1
+        input: {
+            items: ["plastic-bar/2", "steel-plate/1", "copper-coil/1"]
+            liquids: []
+            power: 0.5
+        }
+        output: {
+            items: ["data-card/4"]
+        }
+        craftTime: 120  # = 3.5 seconds
+
+        # This recipe will be unlocked and the player unlocks this research
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
