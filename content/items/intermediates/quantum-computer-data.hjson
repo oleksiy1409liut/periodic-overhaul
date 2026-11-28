@@ -1,0 +1,13 @@
+{
+type: material
+name: Quantum Computer Data
+description: Huge amount of data stored for use in encoding quantum computers, highly advanced machines and mechanisms, requires heavy work to get to.
+cost: 2.5
+color: ec7458
+research: data-encoder
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
