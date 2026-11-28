@@ -323,7 +323,7 @@ jsonRecipes: [
         name: refine-coltan
         input: {
             items: ["coltan-chunk/7"]
-            liquids: ["hydrochloric-acid/0.2", "hydrogen-fluoride/0.1]
+            liquids: ["hydrochloric-acid/0.2", "hydrogen-fluoride/0.1"]
             power: 0.4
         }
         output: {
