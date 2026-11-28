@@ -1,0 +1,13 @@
+{
+type: material
+name: Zirconium Rod (Zr)
+description: dont confuse with zinc
+cost: 2.5
+color: dcd6c8
+research: zircon-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
