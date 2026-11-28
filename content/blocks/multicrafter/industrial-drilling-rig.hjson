@@ -46,5 +46,5 @@ jsonRecipes: [
 ]
 
 # Back to the default game variables
-requirements: ["stainless-steel-plate/320", "printed-circuit-board/5", "solder-coil/40", "copper-coil/35", "computer-data/45", "molybdenum-plate/120]
+requirements: ["stainless-steel-plate/320", "printed-circuit-board/5", "solder-coil/40", "copper-coil/35", "computer-data/45", "molybdenum-plate/120"]
 category: "production"
