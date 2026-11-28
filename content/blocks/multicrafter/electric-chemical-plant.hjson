@@ -305,6 +305,20 @@ jsonRecipes: [
         craftTime: 200  # = 3.333 seconds
         unlocked: true
     }
+    {
+        name: refined-barium
+        input: {
+            items: ["crushed-barite-chunk/2"]
+            liquids: ["hydrochloric-acid/0.3"]
+            power: 0.3
+        }
+        output: {
+            items: ["refined-barium/1", "residue/1"]
+            liquids: []
+        }
+        craftTime: 200  # = 3.333 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
