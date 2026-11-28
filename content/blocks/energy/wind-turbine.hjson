@@ -1,0 +1,34 @@
+name: Wind Turbine
+description: Uses the wind to spin a rotor that produces energy slowly, alhough it is free energy its costy and needs many steel.
+type: ConsumeGenerator
+health: 540
+size: 5
+hasPower: true
+hasLiquids: true
+liquidCapacity: 600
+powerProduction: 1
+itemDuration: 150
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 8
+    }
+]
+}
+
+consumes: {}
+category: power
+research: stainless-steel-plate
+requirements: [
+stainless-steel-plate/96
+basic-epoxy-resin/15
+copper-coil/15
+steel-magnet/2
+]
