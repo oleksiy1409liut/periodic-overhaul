@@ -1,0 +1,13 @@
+{
+type: material
+name: Tantalum Powder (Ta)
+description: icy dust
+cost: 3.5
+color: d1efff
+research: coltan-chunk
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
