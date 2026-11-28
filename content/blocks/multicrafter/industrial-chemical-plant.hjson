@@ -83,6 +83,20 @@ jsonRecipes: [
         craftTime: 240  # = 3 seconds
         unlocked: true
     }
+    {
+        name: separate-zircon
+        input: {
+            items: ["zircon-chunk/10"]
+            liquids: ["hot-air/0.2", "ozone/0.2", "distilled-water/0.3"]
+            power: 0.6
+        }
+        output: {
+            items: ["zirconium-rod/4", "refined-hafnium/2", "residue/3"]
+            liquids: ["dirty-water/0.1"]
+        }
+        craftTime: 180  # = 3 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
