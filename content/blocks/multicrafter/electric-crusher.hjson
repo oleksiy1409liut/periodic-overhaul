@@ -167,6 +167,19 @@ jsonRecipes: [
         craftTime: 105  # = 1.75 seconds
         unlocked: true
     }
+    {
+        name: crush-barite1
+        input: {
+            items: ["barite-chunk/4"]
+            liquids: []
+            power: 0.25
+        }
+        output: {
+            items: ["crushed-barite-chunk/3", "residue/1"]
+        }
+        craftTime: 100  # = 1.75 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
