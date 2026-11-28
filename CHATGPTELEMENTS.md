@@ -4,9 +4,9 @@ This file tracks **chemical elements implemented in the mod**, not ores, alloys,
 
 ## Progress
 
-- **Implemented:** 32 / 118
-- **Completion:** 27.1%
-- **Remaining:** 86
+- **Implemented:** 33 / 118
+- **Completion:** 28.2%
+- **Remaining:** 85
 
 > Counts are based on the element definitions identified in the repository during this review. Some elements have multiple item/liquid forms; those are not counted twice.
 
@@ -46,6 +46,7 @@ This file tracks **chemical elements implemented in the mod**, not ores, alloys,
 | Titanium | Ti | Item |
 | Tungsten | W | Item |
 | Zinc | Zn | Item |
+| Barium | Ba | Item |
 
 ## Notes
 
