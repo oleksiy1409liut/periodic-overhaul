@@ -3,7 +3,7 @@ type: material
 name: Computer Data
 description: Data card full of computer data, used in advanced computer component assembly and basic AI training (gpt astra in mindustry real)
 cost: 2.5
-color: 8175a5
+color: 54d67d
 research: data-encoder
 explosiveness: 0
 flammability: 0
