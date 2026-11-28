@@ -38,9 +38,9 @@ jsonRecipes: [
             power: 3.5
         }
         output: {
-            items: ["residue/2", "copper-chunk/1", "molybdenite-chunk/1", "coltan-chunk/2", "clay/1"]
+            items: ["residue/8", "copper-chunk/5", "molybdenite-chunk/4", "coltan-chunk/7", "clay/5"]
         }
-        craftTime: 120  # = 2.5 seconds
+        craftTime: 600  # = 2.5 seconds
         unlocked: true
     }
 ]
