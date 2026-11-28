@@ -8,6 +8,6 @@ THIS MOD IS UNFINISHED
 author: "oleksiy, credits to polish subfarm for some sprites"
 minGameVersion: 150
 version: "0.14"
-displayName: "[P]eriodi[C] [O]verhaul"
+displayName: "[P]eri[O]di[C] [O]verh[Au]l"
 subtitle: "ok"
 dependencies: ["multicrafter", "linked-logistics-v2"]
