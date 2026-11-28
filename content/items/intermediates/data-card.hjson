@@ -3,7 +3,7 @@ type: material
 name: Data Card
 description: Blank card that can be filled with data for further use.
 cost: 2.5
-color: 8175a5
+color: d6dbe7
 research: electric-assembler
 explosiveness: 0
 flammability: 0
