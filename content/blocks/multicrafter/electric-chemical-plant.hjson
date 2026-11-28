@@ -316,7 +316,7 @@ jsonRecipes: [
             items: ["refined-barium/1", "residue/1"]
             liquids: []
         }
-        craftTime: 200  # = 3.333 seconds
+        craftTime: 100  # = 3.333 seconds
         unlocked: true
     }
 ]
