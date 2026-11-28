@@ -9,6 +9,25 @@ itemCapacity: 100
 liquidCapacity: 600
 health: 1200
 
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 1.25
+    }
+  ]
+}
+
 # The library specific variables
 jsonRecipes: [
     {
@@ -19,7 +38,7 @@ jsonRecipes: [
             power: 3.5
         }
         output: {
-            items: ["residue/1", "copper-chunk/2", "molybdenite-chunk/1", "coltan-chunk/2"]
+            items: ["residue/2", "copper-chunk/1", "molybdenite-chunk/1", "coltan-chunk/2", "clay/1"]
         }
         craftTime: 120  # = 2.5 seconds
         unlocked: true
