@@ -436,6 +436,20 @@ jsonRecipes: [
         craftTime: 120  # = 1.5 second
         unlocked: true
     }
+    {
+        name: stainless-steel-plate
+        input: {
+            items: ["coke/1", "iron-plate/7", "refined-chromium/2", "refined-nickel/1", "molybdenum-plate/1", "manganese-ingot/1", "zinc-ingot/1"]
+            liquids: ["hot-air/0.4", "nitric-oxide/0.4"]
+            power: 0.7
+        }
+        output: {
+            items: ["stainless-steel-plate/16"]
+            liquids: []
+        }
+        craftTime: 240  # = 1.5 second
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
