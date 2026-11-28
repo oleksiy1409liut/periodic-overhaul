@@ -87,7 +87,7 @@ jsonRecipes: [
         name: separate-zircon
         input: {
             items: ["zircon-chunk/10"]
-            liquids: ["hot-air/0.2", "ozone/0.2", "distilled-water/0.3"]
+            liquids: ["hot-air/0.2", "ozone/0.2", "distilled-water/0.3", "hydrochloric-acid/0.3"]
             power: 0.6
         }
         output: {
