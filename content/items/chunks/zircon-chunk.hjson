@@ -1,0 +1,13 @@
+{
+type: material
+name: Zircon Chunk
+description: looks like a pill
+cost: 0.0
+color: ad291d
+research: industrial-drilling-rig
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
