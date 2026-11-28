@@ -38,7 +38,33 @@ jsonRecipes: [
             power: 3.5
         }
         output: {
-            items: ["residue/8", "copper-chunk/5", "molybdenite-chunk/4", "coltan-chunk/7", "clay/5"]
+            items: ["residue/8", "copper-chunk/5", "molybdenite-chunk/4", "coltan-chunk/7", "clay/5", "zircon-chunk/1"]
+        }
+        craftTime: 600  # = 2.5 seconds
+        unlocked: true
+    }
+    {
+        name: deep-mine2
+        input: {
+            items: ["stainless-steel-plate/1"]
+            liquids: ["distilled-water/0.6"]
+            power: 3.5
+        }
+        output: {
+            items: ["residue/7", "chromite-chunk/3", "borate-chunk/4", "coltan-chunk/1", "stone/3", "zircon-chunk/5"]
+        }
+        craftTime: 600  # = 2.5 seconds
+        unlocked: true
+    }
+    {
+        name: deep-mine3
+        input: {
+            items: ["stainless-steel-plate/1"]
+            liquids: ["distilled-water/0.6"]
+            power: 3.5
+        }
+        output: {
+            items: ["residue/3", "dolomite-chunk/2", "lithium-chunk/4", "coltan-chunk/1", "sand/3", "zircon-chunk/2", "clay/2"]
         }
         craftTime: 600  # = 2.5 seconds
         unlocked: true
