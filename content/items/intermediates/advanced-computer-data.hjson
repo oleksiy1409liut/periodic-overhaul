@@ -1,0 +1,13 @@
+{
+type: material
+name: Advanced Computer Data
+description: Better data encoded on a card, harder to produce but can be used for advanced computing recipes.
+cost: 2.5
+color: 87ceeb
+research: data-encoder
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
