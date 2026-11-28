@@ -1,0 +1,13 @@
+{
+type: material
+name: Refined Hafnium (Hf)
+description: looks like a protein bar
+cost: 3.5
+color: eaeae0
+research: stainless-steel-plate
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
