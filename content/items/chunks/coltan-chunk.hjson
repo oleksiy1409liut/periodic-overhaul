@@ -1,0 +1,13 @@
+{
+type: material
+  name: Coltan Chunk
+description: colt brawl stars
+cost: 0.0
+color: 5f3d4f
+research: industrial-drilling-rig
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
