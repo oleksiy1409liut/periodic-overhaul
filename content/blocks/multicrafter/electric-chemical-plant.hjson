@@ -319,6 +319,20 @@ jsonRecipes: [
         craftTime: 100  # = 3.333 seconds
         unlocked: true
     }
+    {
+        name: refine-coltan
+        input: {
+            items: ["coltan-chunk/7"]
+            liquids: ["hydrochloric-acid/0.2", "hydrogen-fluoride/0.1]
+            power: 0.4
+        }
+        output: {
+            items: ["coltan-residue/2", "residue/1", "tantalum-powder/3"]
+            liquids: []
+        }
+        craftTime: 120  # = 3.333 seconds
+        unlocked: true
+    }
 ]
 
 # Back to the default game variables
